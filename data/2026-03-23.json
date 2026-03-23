@@ -3,7 +3,7 @@
     "id": "2026-03-23-001",
     "date": "2026-03-23",
     "time": "12:28",
-    "title": "Daily Memory Dashboard — Concept & Build",
+    "title": "Daily Memory Dashboard \u2014 Concept & Build",
     "summary": "Marlon stelde voor om een daily memory/logging systeem op te zetten. Alle gesprekken en beslissingen worden bijgehouden in een doorzoekbaar dashboard. Chris bouwt dit als web app (Next.js + Vercel), zelfde stijl als het taskboard. Chris heeft SOUL.md, HEARTBEAT.md en AGENTS.md aangepast zodat het dashboard actief bijgehouden wordt na elk gesprek.",
     "tags": [
       "General"
@@ -97,7 +97,7 @@
     ]
   },
   {
-    "id": "2026-03-23-003",
+    "id": "2026-03-23-004",
     "date": "2026-03-23",
     "time": "13:06",
     "title": "R&D Lab - Feedback Loop en Action Tracker",
@@ -119,20 +119,5 @@
       "Marlon",
       "Chris"
     ]
-  },
-  {
-    "date": "2026-03-23",
-    "title": "API Fix Test",
-    "summary": "Testing GitHub Content API integration",
-    "tags": [
-      "System"
-    ],
-    "decisions": [],
-    "actionItems": [],
-    "participants": [
-      "Chris"
-    ],
-    "time": "12:22",
-    "id": "2026-03-23-006"
   }
 ]
