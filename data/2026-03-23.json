@@ -193,5 +193,33 @@
       "Marlon",
       "Chris"
     ]
+  },
+  {
+    "id": "2026-03-23-005",
+    "date": "2026-03-23",
+    "time": "16:26",
+    "title": "Marketing Regel: Verkoop Transformatie, Niet Technologie",
+    "summary": "Marlon deelde een artikel van Mona Truong (Murror) over de grootste marketingfout bij AI-producten: de technologie verkopen in plaats van het resultaat. Directe toepassing op al onze projecten. Vastgelegd als Regel 0 in het AI visibility playbook en als harde regel in SOUL.md. Geldt voor altijd, voor elk project.",
+    "tags": [
+      "General",
+      "DocuWrap",
+      "BespaarPilot",
+      "CinqStay",
+      "MKJ"
+    ],
+    "decisions": [
+      "Nooit AI als selling point gebruiken",
+      "Altijd leiden met menselijk resultaat",
+      "Regel 0 toegevoegd aan AI visibility playbook",
+      "Vastgelegd in SOUL.md als permanente regel"
+    ],
+    "actionItems": [
+      "BespaarPilot landing page: AI-vermeldingen schrappen",
+      "DocuWrap landing page: AI-vermeldingen schrappen"
+    ],
+    "participants": [
+      "Marlon",
+      "Chris"
+    ]
   }
 ]
