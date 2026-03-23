@@ -1,0 +1,35 @@
+[
+  {
+    "id": "2026-03-09-001",
+    "date": "2026-03-09",
+    "time": "10:00",
+    "title": "DocuWrap gekozen als eerste revenue product",
+    "summary": "7 kansen geverifieerd, DocuWrap gekozen: Telegram/WhatsApp bot voor spraak-naar-werkbon. Target: 80K NL ZZP installateurs + 30K aannemers. Pricing: freemium €9.99/mnd of €0.25/werkbon. Bot gebouwd, eerste test mislukt.",
+    "tags": ["DocuWrap"],
+    "decisions": ["DocuWrap als eerste revenue product", "Telegram/WhatsApp bot als middleware (geen nieuwe app)"],
+    "actionItems": ["Bot fixen en opnieuw testen"],
+    "participants": ["Marlon", "Chris"]
+  },
+  {
+    "id": "2026-03-09-002",
+    "date": "2026-03-09",
+    "time": "17:29",
+    "title": "DocuWrap v5 WINNAAR — ElevenLabs Scribe",
+    "summary": "5 versies getest. v5 (ElevenLabs Scribe v2 + Gemini) is winnaar. Keyterm prompting maakt verschil: herkent Remeha, Nefit, Flamco, Daikin ook met herrie. Kosten: $0.40/uur transcriptie + Gemini gratis.",
+    "tags": ["DocuWrap"],
+    "decisions": ["ElevenLabs Scribe v2 voor transcriptie", "Gemini 2.5 Flash Lite voor structurering"],
+    "actionItems": [],
+    "participants": ["Marlon", "Chris"]
+  },
+  {
+    "id": "2026-03-09-003",
+    "date": "2026-03-09",
+    "time": "11:25",
+    "title": "Apple Music AI tags — urgentie ghost producer",
+    "summary": "Apple Music voegt AI-transparantie tags toe. Spotify en Deezer doen hetzelfde. Binnen 6-12 maanden wordt AI-muziek herkenbaar op alle platforms. Ghost producer + professionele mastering is urgent geworden.",
+    "tags": ["MKJ"],
+    "decisions": ["Ghost producer is niet meer optioneel maar urgent", "AI-gebruik NOOIT publiek noemen"],
+    "actionItems": ["Ghost producer zoeken"],
+    "participants": ["Chris"]
+  }
+]

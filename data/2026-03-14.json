@@ -1,0 +1,24 @@
+[
+  {
+    "id": "2026-03-14-001",
+    "date": "2026-03-14",
+    "time": "11:10",
+    "title": "Ghost producer shortlist + reel-scripts klaar",
+    "summary": "Top 5 ghost producers: David Ghost Producer, Cheasysound (€100-200), Krimsonn, Steven Angel, BeatGhost. 5 reel-scripts geschreven (hot takes, circuit stories, track drops). Klaar om te filmen.",
+    "tags": ["MKJ"],
+    "decisions": ["Start met Cheasysound (laag risico) + offerte David"],
+    "actionItems": ["Marlon reviewt shortlist", "Batch-sessie plannen weekend 15-16 maart"],
+    "participants": ["Chris"]
+  },
+  {
+    "id": "2026-03-14-002",
+    "date": "2026-03-14",
+    "time": "15:00",
+    "title": "Google Ads skill geïnstalleerd voor ORAVIVUM",
+    "summary": "ClawHub skill 'google-ads' gereviewed en geïnstalleerd. Security check: 100% clean. Plan: dinsdag 18 maart samen Google Ads instellen. Externe ads-beheerder definitief gedropt.",
+    "tags": ["ORAVIVUM"],
+    "decisions": ["Google Ads skill veilig bevonden", "Dinsdag 18 maart: Ads account instellen"],
+    "actionItems": ["Marlon: Google Ads account aanmaken + betaalmethode koppelen"],
+    "participants": ["Marlon", "Chris"]
+  }
+]

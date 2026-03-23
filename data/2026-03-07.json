@@ -1,0 +1,24 @@
+[
+  {
+    "id": "2026-03-07-001",
+    "date": "2026-03-07",
+    "time": "10:00",
+    "title": "Crownsurge pitch + canvas geupload",
+    "summary": "Crownsurge pitch ingediend bij Spotify for Artists (genres: Dance/Electronic, House, Progressive House). Canvas v2 geupload (puur sfeer, geen neppe crowd). Release 13 maart.",
+    "tags": ["MKJ"],
+    "decisions": ["Canvas v2 stijl: sfeer/licht/haze, geen crowd"],
+    "actionItems": [],
+    "participants": ["Marlon", "Chris"]
+  },
+  {
+    "id": "2026-03-07-002",
+    "date": "2026-03-07",
+    "time": "14:00",
+    "title": "CinqStay naam gekozen + MVP bouw gestart",
+    "summary": "Marlon koos CinqStay.com als domeinnaam. Technisch design klaar, hotellijst geverifieerd (26 hotels), MVP gebouwd en naar GitHub gepusht (MB11-code/cinqstay). Supabase database opgezet met 30 hotels. Site live op cinqstay.vercel.app.",
+    "tags": ["CinqStay"],
+    "decisions": ["Domeinnaam: CinqStay.com", "Tech stack: Next.js + Supabase + liteAPI", "liteAPI alleen voor booking, niet voor content"],
+    "actionItems": ["CinqStay.com domein registreren (Marlon)", "Vercel env vars instellen"],
+    "participants": ["Marlon", "Chris"]
+  }
+]

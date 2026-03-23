@@ -1,0 +1,24 @@
+[
+  {
+    "id": "2026-03-06-001",
+    "date": "2026-03-06",
+    "time": "17:10",
+    "title": "Wekelijkse review — MKJ stilgevallen door CinqStay focus",
+    "summary": "Week 3 evaluatie: 10 taken afgerond maar veel doorgeschoven. Grote gap 27 feb - 5 maart. MKJ booking (3 weken 0 mails), IG (2,5 week stil), sync (nul). Rode vlaggen geïdentificeerd.",
+    "tags": ["MKJ"],
+    "decisions": ["Week 4 plan geschreven met urgente items bovenaan"],
+    "actionItems": ["Crownsurge release 13 maart", "Summertime pitch 10 maart", "IG herstart", "Booking push"],
+    "participants": ["Chris"]
+  },
+  {
+    "id": "2026-03-06-002",
+    "date": "2026-03-06",
+    "time": "17:39",
+    "title": "Longevity demo websites + Hotel platform voortgang",
+    "summary": "5 longevity demo-websites gebouwd en naar GitHub gepusht. Marlon heeft nog geen naam gekozen — bottleneck. Hotel platform: liteAPI sandbox account, API getest, projectplan aangemaakt. Marlon: alles zelf doen, niet lastigvallen.",
+    "tags": ["Longevity", "CinqStay"],
+    "decisions": ["Naamkeuze blijft bottleneck longevity", "Hotel platform: volledig autonoom afhandelen"],
+    "actionItems": ["MVP hotel platform bouwen", "Domeinnaam kiezen"],
+    "participants": ["Marlon", "Chris"]
+  }
+]

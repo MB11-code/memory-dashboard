@@ -1,0 +1,24 @@
+[
+  {
+    "id": "2026-02-20-001",
+    "date": "2026-02-20",
+    "time": "12:00",
+    "title": "Releases ingepland + demo-mix DONE",
+    "summary": "Crownsurge (JMK-059) release 13 maart, Summertime (JMK-060) release 20 maart. Demo-mix geupload naar Mixcloud (453MB mainstage mix). Link: mixcloud.com/Marlon_K_Jones/",
+    "tags": ["MKJ"],
+    "decisions": ["Crownsurge pitchen ~25 feb", "Summertime pitchen ~4 maart"],
+    "actionItems": ["Mixcloud profiel invullen", "IG engagement strategie starten"],
+    "participants": ["Marlon", "Chris"]
+  },
+  {
+    "id": "2026-02-20-002",
+    "date": "2026-02-20",
+    "time": "16:00",
+    "title": "Canvas tool gebouwd — Runway ML werkend",
+    "summary": "Spotify Canvas video tool gebouwd (tools/canvas-gen.py). Eerste test geslaagd: Crownsurge canvas in 32 sec. Kosten ~$0.25/video. Runway API gekozen boven Pika/Kling/Veo.",
+    "tags": ["MKJ"],
+    "decisions": ["Runway ML gekozen als video API provider"],
+    "actionItems": ["Summertime canvas genereren"],
+    "participants": ["Marlon", "Chris"]
+  }
+]

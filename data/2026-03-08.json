@@ -1,0 +1,24 @@
+[
+  {
+    "id": "2026-03-08-001",
+    "date": "2026-03-08",
+    "time": "11:59",
+    "title": "CinqStay — kwaliteit boven kwantiteit",
+    "summary": "Marlon: 'site moet echt perfect en smooth werken voordat we meer hotels plaatsen'. Focus verschoven van meer hotels naar polish & UX. Alle 30 beschrijvingen handmatig herschreven. liteAPI data onbetrouwbaar voor content (verkeerde hotel matches). Hotel scan geparkeerd.",
+    "tags": ["CinqStay"],
+    "decisions": ["Kwaliteit boven kwantiteit", "liteAPI alleen voor booking, content handmatig", "Hotel uitbreiding geparkeerd"],
+    "actionItems": ["Alle hotels echte foto's geven", "Booking flow testen", "SEO basics"],
+    "participants": ["Marlon", "Chris"]
+  },
+  {
+    "id": "2026-03-08-002",
+    "date": "2026-03-08",
+    "time": "12:39",
+    "title": "CinqStay — verdienmodel moet passief zijn",
+    "summary": "Marlon wil NIET zelf boekingen afhandelen. Verdienmodel moet passief zijn, zo min mogelijk tijd kosten. Revenue model research gestart.",
+    "tags": ["CinqStay"],
+    "decisions": ["Geen booking agent worden", "Passief verdienmodel vereist"],
+    "actionItems": ["Revenue model rapport schrijven"],
+    "participants": ["Marlon", "Chris"]
+  }
+]

@@ -1,0 +1,35 @@
+[
+  {
+    "id": "2026-03-11-001",
+    "date": "2026-03-11",
+    "time": "12:00",
+    "title": "CinqStay booking flow volledig werkend",
+    "summary": "Booking flow gefixt: offerId op roomType level, ACC_CREDIT_CARD voor sandbox, children als array van leeftijden. Room matching strenger gemaakt. Architectuur besluit: liteAPI is leidend voor beschikbaarheid, onze DB alleen cosmetisch.",
+    "tags": ["CinqStay"],
+    "decisions": ["liteAPI is leidend voor beschikbaarheid", "Onze room_types tabel alleen voor cosmetische data"],
+    "actionItems": [],
+    "participants": ["Marlon", "Chris"]
+  },
+  {
+    "id": "2026-03-11-002",
+    "date": "2026-03-11",
+    "time": "14:00",
+    "title": "ORAVIVUM — balie instructie + mail naar Lotte verstuurd",
+    "summary": "Balie instructie PDF gemaakt (3 versies, versie 3 definitief). Mail aan Lotte opgesteld. Marlon heeft mail + instructie verstuurd naar Lotte en balie. Google Business Profile: ORAVIVUM services toegevoegd aan bestaand GBP Orthodontie Museumplein (geen apart profiel).",
+    "tags": ["ORAVIVUM"],
+    "decisions": ["Geen apart GBP voor ORAVIVUM (zelfde adres = ranking conflict)", "Services toevoegen aan bestaand GBP"],
+    "actionItems": ["Contactformulier live maken", "Google Ads briefing voorbereiden"],
+    "participants": ["Marlon", "Chris"]
+  },
+  {
+    "id": "2026-03-11-003",
+    "date": "2026-03-11",
+    "time": "16:00",
+    "title": "ORAVIVUM — contactformulier + blog + marketingplan",
+    "summary": "Resend email opgezet (oravivum.nl geverifieerd). Contactformulier live: mails naar balie@orthodontiemuseumplein.nl. Kennisbank/blog gebouwd (markdown-based, tweetalig). Volledig marketingplan opgeleverd: Google Ads €750/mnd, SEO, GEO/AI, patiëntendatabase.",
+    "tags": ["ORAVIVUM"],
+    "decisions": ["Wekelijks blog via cron (automatisch schrijven)", "Google Ads zelf opzetten"],
+    "actionItems": ["Google Ads account instellen", "Blog cron job actief"],
+    "participants": ["Marlon", "Chris"]
+  }
+]

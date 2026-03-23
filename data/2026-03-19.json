@@ -1,0 +1,46 @@
+[
+  {
+    "id": "2026-03-19-001",
+    "date": "2026-03-19",
+    "time": "09:10",
+    "title": "CinqStay — schema markup + blog + kamergroepering LIVE",
+    "summary": "Schema markup (WebSite, Organization, ItemList, BreadcrumbList) live. Blog/Journal systeem gebouwd, Raffles London review gepubliceerd. Kamergroepering Booking.com-stijl: Marlon 'super, veel overzichtelijker!' GA4 + Search Console live.",
+    "tags": ["CinqStay"],
+    "decisions": ["Booking.com-stijl kamergroepering", "Journal/blog als content strategie"],
+    "actionItems": ["Content kalender uitvoeren"],
+    "participants": ["Marlon", "Chris"]
+  },
+  {
+    "id": "2026-03-19-002",
+    "date": "2026-03-19",
+    "time": "10:52",
+    "title": "BESLISSING: 3 jaar → 5 jaar hotel window",
+    "summary": "Te weinig aanbod via liteAPI bij 3-jaar filter. Marlon besloot: CinqStay toont nu hotels van de laatste 5 jaar (was 3). Database en website copy aangepast.",
+    "tags": ["CinqStay"],
+    "decisions": ["Hotel window van 3 naar 5 jaar verruimd"],
+    "actionItems": [],
+    "participants": ["Marlon", "Chris"]
+  },
+  {
+    "id": "2026-03-19-003",
+    "date": "2026-03-19",
+    "time": "09:15",
+    "title": "Ghost producer status — 3 actief, 2 afgewezen",
+    "summary": "Jimmi Rider ($500) briefing akkoord, demo verwacht 22 maart. Krimsonn ($450) briefing verstuurd. Cheasysound ($165) loopt, demo ~31 maart. David ($999) en Voster & Gallardo ($1500) netjes afgewezen.",
+    "tags": ["MKJ"],
+    "decisions": ["David en Voster afgewezen (te duur/lang)", "3 producers actief"],
+    "actionItems": ["Wachten op demo's Jimmi Rider en Krimsonn"],
+    "participants": ["Chris"]
+  },
+  {
+    "id": "2026-03-19-004",
+    "date": "2026-03-19",
+    "time": "09:40",
+    "title": "ORAVIVUM — GA4 tracking gefixt + Search Console live",
+    "summary": "GA4 laadde niet zonder cookie consent — gefixt met IP-anonimisering (AVG-compliant, altijd laden). Cookie banner aangepast naar informatief. Search Console geverifieerd, sitemap ingediend.",
+    "tags": ["ORAVIVUM"],
+    "decisions": ["GA4 altijd laden met IP-anonimisering"],
+    "actionItems": ["Maandag 24 maart: Ads performance review"],
+    "participants": ["Chris"]
+  }
+]

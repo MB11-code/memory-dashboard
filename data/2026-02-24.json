@@ -1,0 +1,35 @@
+[
+  {
+    "id": "2026-02-24-001",
+    "date": "2026-02-24",
+    "time": "16:24",
+    "title": "Felix Case Study — van assistent naar mede-ondernemer",
+    "summary": "Marlon stuurde artikel over Felix (OpenClaw agent die $14K+ verdiende). 5 kernlessen geïntegreerd: PARA geheugen, meer autonomie, parallel werken, revenue streams bouwen, continu leren. Dit verandert werkwijze fundamenteel.",
+    "tags": ["General"],
+    "decisions": ["Werkwijze verschuift van assistent naar mede-ondernemer", "Revenue streams actief gaan bouwen"],
+    "actionItems": ["Felix-lessen integreren in dagelijkse werkwijze"],
+    "participants": ["Marlon", "Chris"]
+  },
+  {
+    "id": "2026-02-24-002",
+    "date": "2026-02-24",
+    "time": "16:38",
+    "title": "Grote opschoning + eerlijke evaluatie MKJ",
+    "summary": "Masterplan verouderd, catalogus incompleet, IG groei dramatisch (3 volgers na 2 weken), 0 booking mails, 0 sync platforms. Kingsday 27 april urgent. Cron jobs geconsolideerd van 3 naar 1.",
+    "tags": ["MKJ"],
+    "decisions": ["Cron jobs geconsolideerd: 3 ochtend-jobs → 1", "Kingsday als urgent gemarkeerd"],
+    "actionItems": ["Booking mails versturen", "Kingsday research"],
+    "participants": ["Marlon", "Chris"]
+  },
+  {
+    "id": "2026-02-24-003",
+    "date": "2026-02-24",
+    "time": "10:00",
+    "title": "Longevity verdienmodel besluit — hoge-marge behandelingen",
+    "summary": "Membership-model afgeschoten (€180/60min te laag vs €900/uur orthodontie). Nieuwe focus: botox bruxisme (€300-500/15min), slaapapneu MRA (€1.500-2.500), kaakcorrectie (€3.000-6.000). Screening bij bestaande afspraken. Marlon: 'this is the way to go'.",
+    "tags": ["Longevity"],
+    "decisions": ["Membership-model geschrapt", "Focus op hoge-marge behandelingen: botox bruxisme als instapper", "Businessmodel v2 is leidend document"],
+    "actionItems": [],
+    "participants": ["Marlon", "Chris"]
+  }
+]

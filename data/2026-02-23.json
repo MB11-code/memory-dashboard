@@ -1,0 +1,24 @@
+[
+  {
+    "id": "2026-02-23-001",
+    "date": "2026-02-23",
+    "time": "18:49",
+    "title": "Longevity — partner akkoord, GO voor fase 1",
+    "summary": "Marlon's zakenpartner is overstag. Focus: naam, look & feel, website, doelgroep. Sub-agents gestart voor branding, website en doelgroep research.",
+    "tags": ["Longevity"],
+    "decisions": ["Longevity fase 1 gestart", "Domeinchecks: vitalongevity.nl+.com allebei vrij"],
+    "actionItems": ["Naamkeuze finaliseren", "Website bouwen zodra naam gekozen"],
+    "participants": ["Marlon", "Chris"]
+  },
+  {
+    "id": "2026-02-23-002",
+    "date": "2026-02-23",
+    "time": "19:20",
+    "title": "Geheugen & bestandsorganisatie afgesproken",
+    "summary": "Marlon bezorgd over wildgroei .md bestanden. Afgesproken: 1 centraal taskboard als hub, mapstructuur opschonen. Wekelijkse memory cleanup (zo 18:00) en 2x per maand check-in met Marlon.",
+    "tags": ["General"],
+    "decisions": ["Centraal taskboard als hub", "Wekelijkse memory cleanup cron", "2x per maand geheugen check-in"],
+    "actionItems": ["Mapstructuur reorganisatie uitvoeren"],
+    "participants": ["Marlon", "Chris"]
+  }
+]

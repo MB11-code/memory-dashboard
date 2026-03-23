@@ -1,0 +1,46 @@
+[
+  {
+    "id": "2026-03-13-001",
+    "date": "2026-03-13",
+    "time": "09:00",
+    "title": "Crownsurge release day",
+    "summary": "Crownsurge live op alle platforms. Release day draaiboek + caption klaar. Playlist pitching naar 4 curators. Summertime canvas gegenereerd.",
+    "tags": ["MKJ"],
+    "decisions": [],
+    "actionItems": ["IG release post plaatsen", "Booking mails goedkeuren"],
+    "participants": ["Marlon", "Chris"]
+  },
+  {
+    "id": "2026-03-13-002",
+    "date": "2026-03-13",
+    "time": "12:25",
+    "title": "ORAVIVUM — botox verwijderd van hele site + GBP",
+    "summary": "Google Ads manager (Luuk) feedback: 'Botox' is restricted. ALLE botox-vermeldingen vervangen door 'botulinetoxine'. URLs hernoemd. GBP profiel opgeschoond. Luuk's tarief afgewezen — te duur. Besluit: Google Ads zelf opzetten.",
+    "tags": ["ORAVIVUM"],
+    "decisions": ["Botox-term volledig vervangen door botulinetoxine", "Google Ads zelf opzetten (externe beheerder te duur)"],
+    "actionItems": ["Google Ads account aanmaken", "AW-tag installeren op site"],
+    "participants": ["Marlon", "Chris"]
+  },
+  {
+    "id": "2026-03-13-003",
+    "date": "2026-03-13",
+    "time": "16:30",
+    "title": "MKJ strategie reset — 'Eerst publiek, dan muziek'",
+    "summary": "Eerlijk gesprek: 41 tracks, 10 listeners, 7 IG volgers = strategie werkt niet. NIEUWE STRATEGIE: Marlon als muziek-commentator/personality. Ghost producer voor releases (geen AI-tracks meer). AI-gebruik nooit publiek noemen. Budget €1200-1500/mnd, max 8 uur/week Marlon.",
+    "tags": ["MKJ"],
+    "decisions": ["Strategie reset: eerst publiek opbouwen als personality", "Ghost producer verplicht", "AI-gebruik nooit publiek", "Masterplan v2 geschreven"],
+    "actionItems": ["Ghost producer shortlist maken", "Reel-scripts schrijven", "Batch-filmsessie plannen"],
+    "participants": ["Marlon", "Chris"]
+  },
+  {
+    "id": "2026-03-13-004",
+    "date": "2026-03-13",
+    "time": "11:20",
+    "title": "Twilio telefonie opgezet — kan Marlon bellen",
+    "summary": "Twilio account opgezet, US nummer +14322374118. Test-call geslaagd. Call-script: tools/call-marlon.sh. Nieuwe capability: Chris kan Marlon nu bellen via API.",
+    "tags": ["General"],
+    "decisions": ["Twilio als telefonie-provider"],
+    "actionItems": [],
+    "participants": ["Marlon", "Chris"]
+  }
+]

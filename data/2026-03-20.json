@@ -1,0 +1,24 @@
+[
+  {
+    "id": "2026-03-20-001",
+    "date": "2026-03-20",
+    "time": "10:00",
+    "title": "ORAVIVUM Google Ads — consent mode v2 + schema markup",
+    "summary": "Alle 4 campagnes hadden 0 vertoningen (belcomponent ontbrak + consent mode bug). Marlon heeft belcomponenten toegevoegd. Consent Mode v2 geïmplementeerd op site. MedicalBusiness + FAQPage schema markup live. Campagnes nu in leerfase.",
+    "tags": ["ORAVIVUM"],
+    "decisions": ["Consent Mode v2 verplicht voor EU"],
+    "actionItems": ["Maandag 24 maart: eerste performance review"],
+    "participants": ["Marlon", "Chris"]
+  },
+  {
+    "id": "2026-03-20-002",
+    "date": "2026-03-20",
+    "time": "09:30",
+    "title": "CinqStay — 54 hotels toegevoegd (2021-2022)",
+    "summary": "Grote hotel discovery sessie: 39 hotels uit 2021 + 15 uit 2022 toegevoegd. Totaal ~70 boekbaar. UX verbeteringen: Next.js Image, Leaflet kaart, photo gallery met lightbox, facilities 'show more'. Concierge widget upgrade met live Supabase data.",
+    "tags": ["CinqStay"],
+    "decisions": ["Foto limiet verwijderd (was 30, nu onbeperkt)", "Alle hotels opnieuw gesynct met meer foto's"],
+    "actionItems": ["Q4 2022 + 2023 + 2024 nog toevoegen"],
+    "participants": ["Marlon", "Chris"]
+  }
+]

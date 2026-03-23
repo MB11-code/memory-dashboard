@@ -1,0 +1,35 @@
+[
+  {
+    "id": "2026-02-25-001",
+    "date": "2026-02-25",
+    "time": "07:26",
+    "title": "Revenue stream project — Marlon's 3 Gouden Regels",
+    "summary": "Marlon wil dat Chris autonoom producten bouwt en verkoopt (Felix-inspired). Drie regels: 1) PROBLEEM EERST 2) GENERIEK (geen maatwerk) 3) SIMPEL. Niks weggeven over hoe we MKJ bouwen.",
+    "tags": ["General"],
+    "decisions": ["Revenue project gestart", "3 regels: probleem-eerst, generiek, simpel", "Geen MKJ build-kennis delen"],
+    "actionItems": ["Marktonderzoek naar problemen die we kunnen oplossen"],
+    "participants": ["Marlon", "Chris"]
+  },
+  {
+    "id": "2026-02-25-002",
+    "date": "2026-02-25",
+    "time": "17:39",
+    "title": "Taskboard web app LIVE + websites gecloned",
+    "summary": "Online taskboard gebouwd en deployed op Vercel (project-board-silk-iota.vercel.app). GitHub repo: MB11-code/project-board. MKJ + JOMAK websites gecloned, turbopack bug gefixt, alle 42 tracks live op beide sites.",
+    "tags": ["General", "MKJ"],
+    "decisions": ["Taskboard als online hub voor Marlon", "Websites gefixt en live met alle tracks"],
+    "actionItems": ["Booking mails versturen", "Release workflow: elke track → beide websites updaten"],
+    "participants": ["Marlon", "Chris"]
+  },
+  {
+    "id": "2026-02-25-003",
+    "date": "2026-02-25",
+    "time": "14:15",
+    "title": "Proactiviteit fix — heartbeat te passief",
+    "summary": "Marlon merkte dat hij moest vragen om taken te starten die al gepland stonden. Fix: HEARTBEAT.md herschreven met kernregel 'als werk gepland staat zonder Marlon, START HET'. Ochtend briefing spawnt nu direct sub-agents.",
+    "tags": ["General"],
+    "decisions": ["Heartbeat wordt proactief: taken starten zonder te wachten op Marlon"],
+    "actionItems": [],
+    "participants": ["Marlon", "Chris"]
+  }
+]

@@ -1,0 +1,13 @@
+[
+  {
+    "id": "2026-03-21-001",
+    "date": "2026-03-21",
+    "time": "09:09",
+    "title": "Summertime release live + NDA workflow besluit",
+    "summary": "Summertime (JMK-060, feat. Sienna Blaze) live op Spotify. Websites + catalogus bijgewerkt. NDA workflow: PandaDoc gekozen voor digitale handtekeningen (gratis, juridisch waterdicht via eIDAS). Wordt standaard voor alle contracten.",
+    "tags": ["MKJ"],
+    "decisions": ["PandaDoc als standaard voor digitale contracten", "Track count nu 27"],
+    "actionItems": ["PandaDoc account opzetten maandag", "NDA + Buyout als templates uploaden"],
+    "participants": ["Marlon", "Chris"]
+  }
+]

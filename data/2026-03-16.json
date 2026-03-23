@@ -1,0 +1,35 @@
+[
+  {
+    "id": "2026-03-16-001",
+    "date": "2026-03-16",
+    "time": "10:23",
+    "title": "CinqStay LIVE in production mode",
+    "summary": "liteAPI uit sandbox gehaald. Stripe bankrekening + creditcard gekoppeld. Payment SDK geïmplementeerd (gast betaalt via veilig Stripe-based formulier). Booking flow: Dates → Rooms → Guest Details → Payment → Confirmed. SSP pricing (geen dubbele markup meer).",
+    "tags": ["CinqStay"],
+    "decisions": ["Production mode actief", "SSP als verkoopprijs (geen eigen markup bovenop)", "Gemiddelde commissie: 10.65% per boeking"],
+    "actionItems": [],
+    "participants": ["Marlon", "Chris"]
+  },
+  {
+    "id": "2026-03-16-002",
+    "date": "2026-03-16",
+    "time": "14:00",
+    "title": "CinqStay traffic strategie + actieplan",
+    "summary": "Kernstrategie: autoriteit worden over nieuwe luxehotels. SEO op hotelnamen = first-mover advantage. Hotel PR teams als gratis contentbron. Newsletter via Beehiiv. Google Ads NIET (CPC te hoog). Tijdlijn: maand 6 = €2.400-4.800/mnd. Marlon: press email + Beehiiv + Pinterest aanmaken.",
+    "tags": ["CinqStay"],
+    "decisions": ["SEO + content als primaire traffic strategie", "Google Ads niet voor CinqStay", "Newsletter via Beehiiv"],
+    "actionItems": ["press@cinqstay.com email aanmaken", "Beehiiv account", "Pinterest account"],
+    "participants": ["Marlon", "Chris"]
+  },
+  {
+    "id": "2026-03-16-003",
+    "date": "2026-03-16",
+    "time": "11:09",
+    "title": "DocuWrap WhatsApp integratie gestart",
+    "summary": "Lebara prepaid SIM gekocht. Meta Developer Console + WhatsApp Business Account opgezet. Privacy policy op marlonkjones.com. Webhook server draait. WhatsApp WERKT: eerste test succesvol. Pricing: gratis binnen 24u-venster.",
+    "tags": ["DocuWrap"],
+    "decisions": ["WhatsApp als tweede kanaal naast Telegram"],
+    "actionItems": ["Token verversen (tijdelijk)", "Advanced Access aanvragen"],
+    "participants": ["Marlon", "Chris"]
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "id": "2026-02-21-001",
+    "date": "2026-02-21",
+    "time": "13:30",
+    "title": "IG engagement strategie gestart + cron jobs",
+    "summary": "Volledig IG engagement plan gemaakt en naar Marlon gestuurd. Marlon begonnen met eerste 30 accounts volgen. Ochtend briefing (10:00) en avond nudge (18:00) cron jobs aangemaakt.",
+    "tags": ["MKJ"],
+    "decisions": ["Dagelijks IG monitoring via cron jobs", "Mixtape NIET nu promoten op IG — bewaren voor 50-100 volgers"],
+    "actionItems": ["Marlon: 20 midsize producers + labels volgen", "5 inhoudelijke comments per dag"],
+    "participants": ["Marlon", "Chris"]
+  },
+  {
+    "id": "2026-02-21-002",
+    "date": "2026-02-21",
+    "time": "13:17",
+    "title": "Longevity project gestart — 4 sub-agents research",
+    "summary": "Marlon wil orthodontie- en tandartspraktijk omvormen tot longevity/levensstijl-bedrijf. 4 Opus sub-agents ingezet: regelgeving (JA het kan), marktanalyse (50-150M NL segment), businessmodel (gefaseerd, break-even 12 mnd), partnerschappen. Executive summary naar Marlon. Go/no-go advies: GO.",
+    "tags": ["Longevity"],
+    "decisions": ["Longevity project is GO — gefaseerd en lean starten"],
+    "actionItems": ["Besluitvorming met zakenpartner"],
+    "participants": ["Marlon", "Chris"]
+  }
+]

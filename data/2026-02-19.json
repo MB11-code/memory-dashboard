@@ -1,0 +1,13 @@
+[
+  {
+    "id": "2026-02-19-001",
+    "date": "2026-02-19",
+    "time": "09:12",
+    "title": "Frustratiesessie — geheugen en taskboard discipline",
+    "summary": "Marlon gefrustreerd: Chris noemde taken die al af waren. Oorzaak: taskboard/memory niet gecheckt voor communicatie. HEARTBEAT.md aangepast met 'Stap 0: ALTIJD EERST LEZEN'. Spotify Upcoming tab niet zichtbaar in Chris's browser.",
+    "tags": ["General"],
+    "decisions": ["HEARTBEAT.md aangepast: altijd eerst memory/taskboard lezen", "Spotify pitches moet Marlon zelf doen"],
+    "actionItems": ["Marlon maakt morgen demo-mix + track naar distributeur"],
+    "participants": ["Marlon", "Chris"]
+  }
+]

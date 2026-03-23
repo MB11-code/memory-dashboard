@@ -1,0 +1,35 @@
+[
+  {
+    "id": "2026-02-18-001",
+    "date": "2026-02-18",
+    "time": "10:00",
+    "title": "AI foto's voor MKJ profiel",
+    "summary": "Nano Banana Pro weigert gezichtsbewerking (Google policy). Marlon heeft zelf 4 sterke AI press shots gemaakt met prompts van Chris. Opgeslagen in projects/mkj/.",
+    "tags": ["MKJ"],
+    "decisions": ["Tekst-only prompts gebruiken voor AI foto's", "Logo alleen op mainstage foto's, niet op press/backstage"],
+    "actionItems": [],
+    "participants": ["Marlon", "Chris"]
+  },
+  {
+    "id": "2026-02-18-002",
+    "date": "2026-02-18",
+    "time": "10:23",
+    "title": "Collab-producers verificatie — lijst geschrapt",
+    "summary": "Alle 10 originele collab-namen bleken 5-50x groter dan geschat (Skytech 1.1M, Kaaze 1.4M etc.). Nieuwe strategie: betaalde collabs via SoundBetter/Fiverr, micro-producers 0-5K. Grote namen pas bij 10-50K listeners.",
+    "tags": ["MKJ"],
+    "decisions": ["Originele collab-lijst volledig geschrapt", "Nieuwe strategie: betaalde ghost producers + micro-producers"],
+    "actionItems": ["Collab actieplan starten via Reddit en SoundBetter"],
+    "participants": ["Chris"]
+  },
+  {
+    "id": "2026-02-18-003",
+    "date": "2026-02-18",
+    "time": "08:50",
+    "title": "Security audit + web search opgezet",
+    "summary": "Perplexity Sonar via OpenRouter geconfigureerd. Security audit: firewall en FileVault stonden UIT. File permissions aangescherpt (chmod 600 op .env en openclaw.json).",
+    "tags": ["General"],
+    "decisions": ["Web search provider: Perplexity via OpenRouter"],
+    "actionItems": ["Marlon moet firewall + FileVault aanzetten"],
+    "participants": ["Marlon", "Chris"]
+  }
+]

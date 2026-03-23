@@ -1,0 +1,46 @@
+[
+  {
+    "id": "2026-03-17-001",
+    "date": "2026-03-17",
+    "time": "09:16",
+    "title": "Ghost producer outreach — 5 berichten verstuurd",
+    "summary": "Top 5 shortlist definitief: David Ghost Producer, Jimmi Rider (Amsterdam/Revealed), Krimsonn (20M+ streams), Cheasysound (Fiverr Pro €100-200), Voster & Gallardo (NL). Alle berichten verstuurd door Marlon. Contracten ontvangen: briefing template, buyout overeenkomst, NDA.",
+    "tags": ["MKJ"],
+    "decisions": ["Budget niet vermelden in eerste bericht", "Contracten klaargezet (briefing, buyout, NDA)"],
+    "actionItems": ["Reacties afwachten (24-48 uur)"],
+    "participants": ["Marlon", "Chris"]
+  },
+  {
+    "id": "2026-03-17-002",
+    "date": "2026-03-17",
+    "time": "14:47",
+    "title": "Cheasysound besteld — eerste ghost producer track",
+    "summary": "Cheasysound (Fiverr Pro) reageerde binnen 1 uur. Order geplaatst: $165, 10 werkdagen, unlimited revisions, all stems/MIDIs, Logic Pro project. Briefing verstuurd: Progressive House/Big Room, 126-130 BPM, Garrix-stijl, anti-AI clausule. Demo verwacht ~31 maart.",
+    "tags": ["MKJ"],
+    "decisions": ["Eerste ghost producer track besteld bij Cheasysound ($165)"],
+    "actionItems": ["Wachten op demo (~31 maart)"],
+    "participants": ["Marlon", "Chris"]
+  },
+  {
+    "id": "2026-03-17-003",
+    "date": "2026-03-17",
+    "time": "09:19",
+    "title": "DocuWrap WhatsApp permanent gemaakt",
+    "summary": "Permanent token via system user. Ngrok vast domein geïnstalleerd. 3 launchd services draaien automatisch (Telegram bot, WhatsApp webhook, ngrok tunnel). WABA subscription gefixt. Twee voicenotes succesvol verwerkt, merknamen correct herkend.",
+    "tags": ["DocuWrap"],
+    "decisions": ["Permanente infrastructuur opgezet (launchd + ngrok)"],
+    "actionItems": ["3 testers krijgen aankondigingsbericht"],
+    "participants": ["Marlon", "Chris"]
+  },
+  {
+    "id": "2026-03-17-004",
+    "date": "2026-03-17",
+    "time": "11:00",
+    "title": "CinqStay — PR outreach + 9 nieuwe hotels",
+    "summary": "6 van 7 hotels per email benaderd voor press kits. 9 nieuwe hotels toegevoegd (Q1 2026 research, via add-hotel.js). Site nu 16 hotels. Press pagina live op cinqstay.com/press. Email forwarding via ImprovMX opgezet.",
+    "tags": ["CinqStay"],
+    "decisions": ["PR outreach gestart", "Press pagina live"],
+    "actionItems": ["Waldorf Cairo PR contact vinden"],
+    "participants": ["Marlon", "Chris"]
+  }
+]

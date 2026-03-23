@@ -1,0 +1,35 @@
+[
+  {
+    "id": "2026-03-10-001",
+    "date": "2026-03-10",
+    "time": "15:04",
+    "title": "Longevity implementatieplan doorgelopen",
+    "summary": "Volledig plan doorgenomen. Botox bruxisme = #1 prioriteit (€1.180-1.660/uur). €198K/jaar te optimistisch → realistisch €80-95K bruto jaar 1. Fasering: botox → gummy smile → NVTS/MRA → anti-snurkbeugel.",
+    "tags": ["ORAVIVUM"],
+    "decisions": ["Botox bruxisme als eerste behandeling", "Realistische projectie: €80-95K jaar 1"],
+    "actionItems": ["Fiscalist bellen over BTW", "Beroepsaansprakelijkheidsverzekering checken"],
+    "participants": ["Marlon", "Chris"]
+  },
+  {
+    "id": "2026-03-10-002",
+    "date": "2026-03-10",
+    "time": "15:53",
+    "title": "ORAVIVUM — naam definitief gekozen + website live",
+    "summary": "Naam: ORAVIVUM (Oral Longevity Clinic Amsterdam). Ora (mond) + Vivum (levend). Domeinen oravivum.nl + .com geregistreerd. AEVORA-template (teal/goud/crème). Website gebouwd met 6 pagina's, SEO + GEO, domeinen gekoppeld aan Vercel. Locatie: Museumplein.",
+    "tags": ["ORAVIVUM"],
+    "decisions": ["Naam: ORAVIVUM", "Look & feel: AEVORA-template (donker teal, goud, crème)", "Nieuwe site los van orthodontie-site"],
+    "actionItems": ["Prijzen bepalen", "Foto's praktijk aanleveren", "Eerste 5-10 patiënten bellen"],
+    "participants": ["Marlon", "Chris"]
+  },
+  {
+    "id": "2026-03-10-003",
+    "date": "2026-03-10",
+    "time": "16:57",
+    "title": "Tweetalige site nodig — 49% expats",
+    "summary": "49% van klantenbestand is expats. Site moet NL + EN worden met taalswitch.",
+    "tags": ["ORAVIVUM"],
+    "decisions": ["Site wordt tweetalig NL/EN"],
+    "actionItems": ["Taalswitch implementeren"],
+    "participants": ["Marlon", "Chris"]
+  }
+]

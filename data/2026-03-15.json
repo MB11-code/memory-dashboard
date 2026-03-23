@@ -1,0 +1,24 @@
+[
+  {
+    "id": "2026-03-15-001",
+    "date": "2026-03-15",
+    "time": "11:16",
+    "title": "CinqStay automatisering pipeline compleet",
+    "summary": "3 scripts gebouwd en getest: add-hotel.js (hotel toevoegen in 2 min), health-check.js (wekelijkse gezondheidscheck), discovery.js (nieuwe hotels ontdekken). Alles geautomatiseerd — marges te laag voor handwerk.",
+    "tags": ["CinqStay"],
+    "decisions": ["Volledige automatisering: add-hotel + health-check + discovery", "Directe partnerships afgevallen (handwerk)", "Focus: affiliate + SEO/content + liteAPI volume"],
+    "actionItems": ["Health check wekelijks draaien", "Discovery 2x per maand"],
+    "participants": ["Marlon", "Chris"]
+  },
+  {
+    "id": "2026-03-15-002",
+    "date": "2026-03-15",
+    "time": "13:00",
+    "title": "CinqStay prijsvergelijking + revenue strategie",
+    "summary": "Netto marge ~2.3% na transactiekosten (later gecorrigeerd naar ~10.7%). Bij €1,000 boeking: ~€23 netto. Volume is key: 100 boekingen/mnd = ~€2,300/mnd. Projectie 12 maanden: €3,000-8,000/mnd bij voldoende traffic.",
+    "tags": ["CinqStay"],
+    "decisions": ["Revenue strategie: alleen geautomatiseerde streams", "Geen directe partnerships of concierge"],
+    "actionItems": [],
+    "participants": ["Marlon", "Chris"]
+  }
+]

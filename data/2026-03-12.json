@@ -1,0 +1,24 @@
+[
+  {
+    "id": "2026-03-12-001",
+    "date": "2026-03-12",
+    "time": "12:00",
+    "title": "CinqStay multi-room booking + expanded widget",
+    "summary": "Multi-room booking gebouwd: 1-3 kamers per zoekopdracht, auto-suggestie bij te veel gasten, gegroepeerde resultaten. Kind-leeftijd dropdowns per kind. Expanded widget via CSS fixed positioning (React state behouden). Payment flow besproken: sandbox OK, live vereist liteAPI Payment SDK.",
+    "tags": ["CinqStay"],
+    "decisions": ["Multi-room via 1 offerId", "Payment flow: liteAPI SDK voor live (later)"],
+    "actionItems": [],
+    "participants": ["Marlon", "Chris"]
+  },
+  {
+    "id": "2026-03-12-002",
+    "date": "2026-03-12",
+    "time": "15:47",
+    "title": "CinqStay room sync systeem — schaalbare oplossing",
+    "summary": "Automatisch room sync script gebouwd (sync-room-types.ts). liteAPI hotel detail endpoint levert kamertypes met m², bedtype, amenities. Eerste sync: 251 kamertypes voor 10 hotels. Nieuw hotel toevoegen = hotel ID invoeren + script draaien = klaar.",
+    "tags": ["CinqStay"],
+    "decisions": ["Room matching op liteapi_room_id (niet fuzzy naam)", "Schaalbaar: geen handwerk meer bij kamertypes"],
+    "actionItems": [],
+    "participants": ["Chris"]
+  }
+]

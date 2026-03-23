@@ -1,0 +1,35 @@
+[
+  {
+    "id": "2026-03-18-001",
+    "date": "2026-03-18",
+    "time": "10:18",
+    "title": "Ghost producer Jimmi Rider reageert + Nuitee/Kjelt call",
+    "summary": "Jimmi Rider (Amsterdam, Revealed Recordings): $500, delivery 24 maart, briefing verstuurd. Nuitee call met Kjelt Schipper: belangrijkste advies is CUG (Closed User Group) worden — directe contracten met hotels, liteAPI alleen tech, marges van ~10% naar 20-30%+.",
+    "tags": ["MKJ", "CinqStay"],
+    "decisions": ["Jimmi Rider als tweede ghost producer ($500)", "CUG model verkennen voor CinqStay", "Hybride aanpak: huidig model + CUG pilot"],
+    "actionItems": ["Follow-up mail Kjelt met CUG vragen", "Wachten op Jimmi Rider demo"],
+    "participants": ["Marlon", "Chris"]
+  },
+  {
+    "id": "2026-03-18-002",
+    "date": "2026-03-18",
+    "time": "08:49",
+    "title": "ORAVIVUM Google Ads — 4 campagnes LIVE",
+    "summary": "Alle 4 campagnes gebouwd: Bruxisme €8,50/dag, Gummy Smile €5,50/dag, Slaapapneu €4/dag, Brand €2/dag. Totaal €20/dag (~€600/mnd). Google flagged medische termen agressief. Adverteerdersverificatie afgerond. Wekelijkse review cron ingesteld.",
+    "tags": ["ORAVIVUM"],
+    "decisions": ["4 campagnes live, totaal €600/mnd", "Medische alternatieftermen gebruiken"],
+    "actionItems": ["Eerste review maandag 24 maart"],
+    "participants": ["Marlon", "Chris"]
+  },
+  {
+    "id": "2026-03-18-003",
+    "date": "2026-03-18",
+    "time": "12:00",
+    "title": "Google Workspace marlon@cinqstay.com + email volledig werkend",
+    "summary": "Google Workspace opgezet: marlon@cinqstay.com. DNS volledig geconfigureerd (MX, SPF, DKIM, DMARC). Email routing getest en werkt: verzenden, ontvangen, forwarding, press@ alias. Follow-up mail naar Kjelt verstuurd vanuit marlon@cinqstay.com.",
+    "tags": ["CinqStay"],
+    "decisions": ["Google Workspace Business (downgraden naar Starter voor 1 april)"],
+    "actionItems": ["Downgraden naar Starter voor 25 maart"],
+    "participants": ["Marlon", "Chris"]
+  }
+]
