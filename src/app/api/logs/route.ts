@@ -3,6 +3,8 @@ import fs from "fs";
 import path from "path";
 
 const DATA_DIR = path.join(process.cwd(), "data");
+const GITHUB_REPO = "MB11-code/memory-dashboard";
+const GITHUB_API = `https://api.github.com/repos/${GITHUB_REPO}/contents/data`;
 
 export interface LogEntry {
   id: string;
@@ -18,7 +20,6 @@ export interface LogEntry {
 
 function getAllLogs(): LogEntry[] {
   if (!fs.existsSync(DATA_DIR)) {
-    fs.mkdirSync(DATA_DIR, { recursive: true });
     return [];
   }
   const files = fs.readdirSync(DATA_DIR).filter((f) => f.endsWith(".json"));
@@ -43,8 +44,57 @@ function getAllLogs(): LogEntry[] {
   });
 }
 
+// Fetch file from GitHub (returns content + sha, or null if not found)
+async function githubGetFile(
+  fileName: string
+): Promise<{ content: string; sha: string } | null> {
+  const token = process.env.GITHUB_TOKEN;
+  const res = await fetch(`${GITHUB_API}/${fileName}`, {
+    headers: {
+      Authorization: `Bearer ${token}`,
+      Accept: "application/vnd.github.v3+json",
+    },
+  });
+  if (res.status === 404) return null;
+  if (!res.ok) {
+    const text = await res.text();
+    throw new Error(`GitHub GET failed (${res.status}): ${text}`);
+  }
+  const data = await res.json();
+  const content = Buffer.from(data.content, "base64").toString("utf-8");
+  return { content, sha: data.sha };
+}
+
+// Create or update file on GitHub
+async function githubPutFile(
+  fileName: string,
+  content: string,
+  sha?: string
+): Promise<void> {
+  const token = process.env.GITHUB_TOKEN;
+  const body: Record<string, string> = {
+    message: `Update ${fileName}`,
+    content: Buffer.from(content).toString("base64"),
+    branch: "main",
+  };
+  if (sha) body.sha = sha;
+
+  const res = await fetch(`${GITHUB_API}/${fileName}`, {
+    method: "PUT",
+    headers: {
+      Authorization: `Bearer ${token}`,
+      Accept: "application/vnd.github.v3+json",
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify(body),
+  });
+  if (!res.ok) {
+    const text = await res.text();
+    throw new Error(`GitHub PUT failed (${res.status}): ${text}`);
+  }
+}
+
 export async function GET(req: NextRequest) {
-  // Check auth: cookie or x-password header
   const session = req.cookies.get("memory_session");
   const authPassword = req.headers.get("x-password");
   if (
@@ -59,34 +109,43 @@ export async function GET(req: NextRequest) {
 }
 
 export async function POST(req: NextRequest) {
-  // Check password header
+  // Auth check
   const authPassword = req.headers.get("x-password");
   if (authPassword !== process.env.DASHBOARD_PASSWORD) {
-    // Also check cookie
     const session = req.cookies.get("memory_session");
     if (!session || session.value !== "authenticated") {
       return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
     }
   }
 
+  // Parse body
+  let entry: LogEntry;
   try {
-    const entry: LogEntry = await req.json();
+    entry = await req.json();
+  } catch (err) {
+    return NextResponse.json(
+      { error: "Invalid JSON body", detail: String(err) },
+      { status: 400 }
+    );
+  }
 
-    // Validate required fields
-    if (!entry.date || !entry.title || !entry.summary) {
-      return NextResponse.json(
-        { error: "Missing required fields: date, title, summary" },
-        { status: 400 }
-      );
-    }
+  // Validate required fields
+  if (!entry.date || !entry.title || !entry.summary) {
+    return NextResponse.json(
+      { error: "Missing required fields: date, title, summary" },
+      { status: 400 }
+    );
+  }
 
-    // Generate ID if not provided
-    if (!entry.id) {
-      const existing = getAllLogs().filter((l) => l.date === entry.date);
-      const num = String(existing.length + 1).padStart(3, "0");
-      entry.id = `${entry.date}-${num}`;
-    }
+  // Check GITHUB_TOKEN
+  if (!process.env.GITHUB_TOKEN) {
+    return NextResponse.json(
+      { error: "Server misconfiguration: GITHUB_TOKEN not set" },
+      { status: 500 }
+    );
+  }
 
+  try {
     // Defaults
     entry.tags = entry.tags || ["General"];
     entry.decisions = entry.decisions || [];
@@ -94,21 +153,27 @@ export async function POST(req: NextRequest) {
     entry.participants = entry.participants || [];
     entry.time = entry.time || new Date().toTimeString().slice(0, 5);
 
-    // Save to date-based file
     const fileName = `${entry.date}.json`;
-    const filePath = path.join(DATA_DIR, fileName);
 
+    // Get existing file from GitHub
+    const existing = await githubGetFile(fileName);
     let entries: LogEntry[] = [];
-    if (fs.existsSync(filePath)) {
+    if (existing) {
       try {
-        const existing = JSON.parse(fs.readFileSync(filePath, "utf-8"));
-        entries = Array.isArray(existing) ? existing : [existing];
+        const parsed = JSON.parse(existing.content);
+        entries = Array.isArray(parsed) ? parsed : [parsed];
       } catch {
         entries = [];
       }
     }
 
-    // Check for duplicate ID
+    // Generate ID if not provided
+    if (!entry.id) {
+      const num = String(entries.length + 1).padStart(3, "0");
+      entry.id = `${entry.date}-${num}`;
+    }
+
+    // Upsert: replace if duplicate ID, otherwise append
     const dupIndex = entries.findIndex((e) => e.id === entry.id);
     if (dupIndex >= 0) {
       entries[dupIndex] = entry;
@@ -116,13 +181,19 @@ export async function POST(req: NextRequest) {
       entries.push(entry);
     }
 
-    if (!fs.existsSync(DATA_DIR)) {
-      fs.mkdirSync(DATA_DIR, { recursive: true });
-    }
-    fs.writeFileSync(filePath, JSON.stringify(entries, null, 2));
+    // Write back to GitHub
+    await githubPutFile(
+      fileName,
+      JSON.stringify(entries, null, 2),
+      existing?.sha
+    );
 
     return NextResponse.json({ ok: true, entry });
-  } catch {
-    return NextResponse.json({ error: "Invalid JSON body" }, { status: 400 });
+  } catch (err) {
+    console.error("POST /api/logs error:", err);
+    return NextResponse.json(
+      { error: "Failed to save log entry", detail: String(err) },
+      { status: 500 }
+    );
   }
 }
