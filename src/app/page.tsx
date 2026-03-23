@@ -1,40 +1,16 @@
-"use client";
-import { useEffect, useState } from "react";
-import Dashboard from "./Dashboard";
+import { cookies } from "next/headers";
+import { redirect } from "next/navigation";
+import ClientPage from "./ClientPage";
 
-interface LogEntry {
-  id: string;
-  date: string;
-  time: string;
-  title: string;
-  summary: string;
-  tags: string[];
-  decisions: string[];
-  actionItems: string[];
-  participants: string[];
-}
+export const dynamic = "force-dynamic";
 
 export default function Home() {
-  const [logs, setLogs] = useState<LogEntry[]>([]);
-  const [loading, setLoading] = useState(true);
+  const cookieStore = cookies();
+  const session = cookieStore.get("memory_session");
 
-  useEffect(() => {
-    fetch("/api/logs")
-      .then((r) => r.json())
-      .then((data) => {
-        setLogs(data);
-        setLoading(false);
-      })
-      .catch(() => setLoading(false));
-  }, []);
-
-  if (loading) {
-    return (
-      <div className="min-h-screen flex items-center justify-center">
-        <div className="text-gray-500">Loading...</div>
-      </div>
-    );
+  if (!session || session.value !== "authenticated") {
+    redirect("/login");
   }
 
-  return <Dashboard logs={logs} />;
+  return <ClientPage />;
 }
