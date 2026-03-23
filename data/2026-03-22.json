@@ -5,10 +5,23 @@
     "time": "15:00",
     "title": "CinqStay Instagram strategie bepaald",
     "summary": "Aman-stijl als voorbeeld (slow-paced, Ken Burns, serif font). Content mix: 60% carousels / 40% reels, 5x/week + dagelijks stories. 150 hotels max, elk hotel ~2x/jaar. 3 reel-templates + carousel cover template gebouwd en goedgekeurd door Marlon.",
-    "tags": ["CinqStay"],
-    "decisions": ["Aman-stijl als visuele richting", "60% carousels / 40% reels", "Schema: Ma+Do 18:00 carousel, Di+Vr+Za 12:00 reel", "150 hotels max"],
-    "actionItems": ["IG account aanmaken", "Dinsdag 25 maart starten met content productie"],
-    "participants": ["Marlon", "Chris"]
+    "tags": [
+      "CinqStay"
+    ],
+    "decisions": [
+      "Aman-stijl als visuele richting",
+      "60% carousels / 40% reels",
+      "Schema: Ma+Do 18:00 carousel, Di+Vr+Za 12:00 reel",
+      "150 hotels max"
+    ],
+    "actionItems": [
+      "IG account aanmaken",
+      "Dinsdag 25 maart starten met content productie"
+    ],
+    "participants": [
+      "Marlon",
+      "Chris"
+    ]
   },
   {
     "id": "2026-03-22-002",
@@ -16,9 +29,42 @@
     "time": "17:25",
     "title": "CinqStay — booking bug gefixt + cancel feature + kwaliteitsregels",
     "summary": "Prebook 409 error gefixt (margin:0 brak alles). Self-service cancel feature live. 3-jaar regel gehandhaafd voor verlopen hotels. 20 hotels zonder liteAPI unpublished. Kwaliteitsregels: altijd rates API testen voor publicatie, alleen boekbare hotels op site.",
-    "tags": ["CinqStay"],
-    "decisions": ["Nooit margin:0 bij liteAPI", "Alleen boekbare hotels op site (Marlon's regel)", "14 hotels live na opschoning"],
+    "tags": [
+      "CinqStay"
+    ],
+    "decisions": [
+      "Nooit margin:0 bij liteAPI",
+      "Alleen boekbare hotels op site (Marlon's regel)",
+      "14 hotels live na opschoning"
+    ],
     "actionItems": [],
-    "participants": ["Marlon", "Chris"]
+    "participants": [
+      "Marlon",
+      "Chris"
+    ]
+  },
+  {
+    "date": "2026-03-22",
+    "title": "BespaarPilot — Project Launch",
+    "summary": "BespaarPilot project gestart. AI energiecoach + subsidie-matching platform voor NL MKB. Uitgebreid research gedaan: 17 sectoren geanalyseerd, concurrentie in kaart (365Subsidiescan sterkste, maar niemand doet energie + subsidie combo), slagingskans analyse, en energie deep dive (36 spelers, gat bevestigd). Naam gekozen: BespaarPilot. Domeinen gecheckt: bespaarpilot.nl + .com beide beschikbaar. Volledige projectplan geschreven met tech stack (Next.js 14 + Supabase + Tailwind + GPT-4o-mini RAG + Stripe), pricing (gratis quickscan, €29/mnd Starter, €79/mnd Professional), 4-weken bouwplan, en go/no-go momenten. GitHub repo aangemaakt (MB11-code/bespaarpilot). Next.js app gebootstrapt.",
+    "tags": [
+      "BespaarPilot"
+    ],
+    "decisions": [
+      "Naam: BespaarPilot",
+      "Tech: Next.js 14 + Supabase + GPT-4o-mini",
+      "Pricing: gratis quickscan, €29/mnd, €79/mnd",
+      "Break-even: 7-9 betalende klanten",
+      "Go/no-go: week 4, 8, 12"
+    ],
+    "action_items": [
+      "Marlon: domeinen registreren",
+      "Chris: project bootstrappen",
+      "Marlon: 5 MKB-ers benaderen voor validatie"
+    ],
+    "actionItems": [],
+    "participants": [],
+    "time": "15:40",
+    "id": "2026-03-22-003"
   }
 ]
