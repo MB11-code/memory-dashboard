@@ -43,7 +43,17 @@ function getAllLogs(): LogEntry[] {
   });
 }
 
-export async function GET() {
+export async function GET(req: NextRequest) {
+  // Check auth: cookie or x-password header
+  const session = req.cookies.get("memory_session");
+  const authPassword = req.headers.get("x-password");
+  if (
+    authPassword !== process.env.DASHBOARD_PASSWORD &&
+    (!session || session.value !== "authenticated")
+  ) {
+    return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+  }
+
   const logs = getAllLogs();
   return NextResponse.json(logs);
 }
