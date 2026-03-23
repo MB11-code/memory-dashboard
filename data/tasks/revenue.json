@@ -1,0 +1,72 @@
+{
+  "lastUpdated": "2026-03-09T16:15:00Z",
+  "sections": [
+    {
+      "title": "In Progress",
+      "status": "in-progress",
+      "tasks": [
+        {"title": "ClawHub market research", "done": true, "note": "10.8k skills, gaps geïdentificeerd"},
+        {"title": "Revenue deep dive research", "done": false, "note": "Strategieën uitwerken"}
+      ]
+    },
+    {
+      "title": "To Do",
+      "status": "to-do",
+      "tasks": [
+        {"title": "Eerste ClawHub skill bouwen (Social Media Manager)", "done": false, "note": "Grootste gap, 20k+ potentiële downloads"},
+        {"title": "Stripe & Invoice Manager skill", "done": false, "note": "Freelancers/MKB"},
+        {"title": "Advanced Agent Memory skill", "done": false, "note": "Agent meta = hoogste engagement"},
+        {"title": "Home Assistant integration skill", "done": false},
+        {"title": "Email Marketing skill (Mailchimp/Resend)", "done": false},
+        {"title": "Freemium model opzetten", "done": false, "note": "Gratis op ClawHub, premium via eigen site"},
+        {"title": "Gumroad/eigen site voor premium skills", "done": false}
+      ]
+    },
+    {
+      "title": "Parkeerplaats",
+      "status": "to-do",
+      "tasks": [
+        {"title": "Custom skill development dienst aanbieden", "done": false, "note": "$500-2000 per project"},
+        {"title": "Skill packs bundelen", "done": false, "note": "$29-49 per pack"},
+        {"title": "Consulting/workshops AI agents", "done": false}
+      ]
+    },
+    {
+      "title": "Done",
+      "status": "done",
+      "tasks": [
+        {"title": "ClawHub account + CLI setup", "done": true},
+        {"title": "Market research rapport", "done": true, "note": "Top skills, gaps, pricing geanalyseerd"}
+      ]
+    },
+    {
+      "title": "DocuWrap — In Progress",
+      "status": "in-progress",
+      "tasks": [
+        {"title": "Woordenlijst bouw/installatie termen (100+)", "done": false},
+        {"title": "Hertest met woordenlijst", "done": false},
+        {"title": "Masterplan consolideren", "done": false}
+      ]
+    },
+    {
+      "title": "DocuWrap — To Do",
+      "status": "to-do",
+      "tasks": [
+        {"title": "Telegram bot MVP bouwen", "done": false},
+        {"title": "WhatsApp Business migratie", "done": false},
+        {"title": "Integraties (CSV, email, Exact Online)", "done": false}
+      ]
+    },
+    {
+      "title": "DocuWrap — Done",
+      "status": "done",
+      "tasks": [
+        {"title": "Marktonderzoek AI documentation wrapper", "done": true},
+        {"title": "7 ondernemerskansen geverifieerd", "done": true},
+        {"title": "Haalbaarheidsonderzoek (markt, concurrentie, kosten)", "done": true},
+        {"title": "v2 concept gekozen: bot als tussenlaag", "done": true},
+        {"title": "PoC test 1: Whisper + GPT pipeline bewezen", "done": true}
+      ]
+    }
+  ]
+}

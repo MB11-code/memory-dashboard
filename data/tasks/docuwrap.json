@@ -1,0 +1,114 @@
+{
+  "lastUpdated": "2026-03-10T13:48:00Z",
+  "sections": [
+    {
+      "title": "Done",
+      "status": "done",
+      "tasks": [
+        {
+          "title": "Marktonderzoek & haalbaarheid",
+          "done": true,
+          "note": "Concurrentie, API-kosten, AVG, doelgroep geverifieerd"
+        },
+        {
+          "title": "Concept: Telegram bot als middleware",
+          "done": true,
+          "note": "Geen app, geen gedragsverandering — bot als tussenlaag"
+        },
+        {
+          "title": "PoC: spraak-naar-werkbon pipeline",
+          "done": true,
+          "note": "ElevenLabs Scribe v2 + Gemini 2.5 Flash Lite = winnende stack"
+        },
+        {
+          "title": "Telegram bot gebouwd (@DocuWrapBot)",
+          "done": true,
+          "note": "v5 draait — keyterm prompting met 60+ bouw/elektra termen"
+        },
+        {
+          "title": "3 STT engines getest en vergeleken",
+          "done": true,
+          "note": "Gemini direct, Groq Whisper, ElevenLabs Scribe — Scribe wint op NL + herrie"
+        },
+        {
+          "title": "Process management (launchd)",
+          "done": true,
+          "note": "Bot herstart automatisch bij crash of reboot"
+        },
+        {
+          "title": "Testinstructie geschreven",
+          "done": true,
+          "note": "Simpele tekst, klaar om naar testers te sturen"
+        }
+      ]
+    },
+    {
+      "title": "In Progress",
+      "status": "in-progress",
+      "tasks": [
+        {
+          "title": "Gebruikerstesten (3 testers)",
+          "done": false,
+          "note": "Verstuurd naar loodgieter, elektricien en klussenopnemer"
+        }
+      ]
+    },
+    {
+      "title": "To Do",
+      "status": "to-do",
+      "tasks": [
+        {
+          "title": "Feedback testers verwerken",
+          "done": false,
+          "note": "Correctheid, missende features, bruikbaarheid"
+        },
+        {
+          "title": "Masterplan bijwerken",
+          "done": false,
+          "note": "Stack definitief, fase 1 afsluiten, fase 2 plannen"
+        },
+        {
+          "title": "WhatsApp Business migratie",
+          "done": false,
+          "note": "Fase 3 — BSP kosten €50-100/mnd, pas na Telegram validatie"
+        },
+        {
+          "title": "Export opties (CSV, PDF, email)",
+          "done": false,
+          "note": "Afhankelijk van tester-feedback: welk format willen ze?"
+        },
+        {
+          "title": "Integraties (Exact, Bouw7)",
+          "done": false,
+          "note": "Fase 4 — directe API-koppeling met bestaande systemen"
+        },
+        {
+          "title": "Pricing & betaling implementeren",
+          "done": false,
+          "note": "Freemium: 10 werkbonnen/mnd gratis, dan €9.99/mnd"
+        }
+      ]
+    },
+    {
+      "title": "Key Info",
+      "status": "info",
+      "tasks": [
+        {
+          "title": "Stack: ElevenLabs Scribe v2 + Gemini",
+          "done": false,
+          "note": "Kosten: ~€0.01/werkbon (Scribe $0.40/uur + Gemini gratis)"
+        },
+        {
+          "title": "Doelgroep: 80K ZZP + 30K kleine aannemers NL",
+          "done": false,
+          "note": "Freemium model, start Telegram → WhatsApp migratie"
+        },
+        {
+          "title": "Bevindingen: projects/docuwrap/bot/BEVINDINGEN.md",
+          "done": false,
+          "note": "Alle testresultaten en vergelijkingen gedocumenteerd"
+        }
+      ]
+    }
+  ]
+}

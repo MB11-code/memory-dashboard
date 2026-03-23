@@ -1,0 +1,69 @@
+{
+  "lastUpdated": "2026-03-12T12:22:00Z",
+  "sections": [
+    {
+      "title": "Wacht op Marlon / Lotte",
+      "status": "waiting",
+      "tasks": [
+        {"title": "Prijzen bepalen (botox bruxisme + gummy smile)", "done": false, "note": "Lotte moet bepalen met partner"},
+        {"title": "Balie-mailing uitvoeren", "done": false, "note": "Instructie verstuurd 11 maart, wachten op actie balie"},
+        {"title": "Google Ads briefing doorsturen naar Luuk", "done": false, "note": "v1.3 PDF + mail klaargezet 12 maart"},
+        {"title": "Lotte: BIG-nummer + AGB-code aanleveren", "done": false, "note": "Nodig voor Zorgkaart + Tandarts.nl profielen"},
+        {"title": "Foto's aanleveren (praktijk, team)", "done": false, "note": "Geparkeerd"}
+      ]
+    },
+    {
+      "title": "Volgende Stappen",
+      "status": "to-do",
+      "tasks": [
+        {"title": "Google Ads starten (EUR 750/mnd)", "done": false, "note": "Zodra Luuk briefing heeft"},
+        {"title": "Zorgkaart + Tandarts.nl profielen aanmaken", "done": false, "note": "Research + profielteksten klaar, wacht op BIG/AGB"},
+        {"title": "Instagram @oravivum opzetten", "done": false},
+        {"title": "Informed consent formulier", "done": false},
+        {"title": "Foto-protocol voor/na", "done": false}
+      ]
+    },
+    {
+      "title": "Geautomatiseerd (cron jobs)",
+      "status": "in-progress",
+      "tasks": [
+        {"title": "Wekelijks blog artikel (wo 10:00)", "done": true, "note": "Tweetalig NL/EN, auto-deploy"},
+        {"title": "Wekelijkse GBP post (ma 09:00)", "done": true, "note": "Tekst naar topic 762, Marlon/Lotte plaatst"},
+        {"title": "Longevity ochtend briefing (ma-vr 08:45)", "done": true, "note": "Status check topic 762"}
+      ]
+    },
+    {
+      "title": "Afgerond",
+      "status": "done",
+      "tasks": [
+        {"title": "Google Analytics (GA4) live", "done": true, "note": "12 maart, G-TBVV6HTH3Z, cookie consent, event tracking"},
+        {"title": "Zorgkaart/Tandarts.nl research", "done": true, "note": "12 maart, rapport + profielteksten + review-templates klaar"},
+        {"title": "Google Ads briefing v1.3 PDF", "done": true, "note": "12 maart, 3 campagnes, omzetprognose, livegang checklist"},
+        {"title": "Mail voor ads-beheerder Luuk opgesteld", "done": true, "note": "12 maart"},
+        {"title": "Contactformulier getest en werkend", "done": true, "note": "11 maart, e-mail ontvangen bij balie"},
+        {"title": "Blog/kennisbank live op oravivum.nl", "done": true, "note": "11 maart, 2 artikelen, tweetalig NL/EN"},
+        {"title": "Google Ads briefing geschreven", "done": true, "note": "11 maart, 3 campagnes, 50+ keywords, 10 ads"},
+        {"title": "Content strategie geschreven", "done": true, "note": "11 maart, 24 artikelen, 12-weeks schema"},
+        {"title": "Wekelijkse GBP posts cron job", "done": true, "note": "11 maart"},
+        {"title": "Wekelijks blog artikel cron job", "done": true, "note": "11 maart"},
+        {"title": "Website live op oravivum.com", "done": true, "note": "10 maart"},
+        {"title": "Cookie banner + privacybeleid", "done": true, "note": "11 maart"},
+        {"title": "Contactformulier via Resend", "done": true, "note": "11 maart"},
+        {"title": "Balie-instructie PDF", "done": true, "note": "11 maart"},
+        {"title": "Mail aan Lotte verstuurd", "done": true, "note": "11 maart"},
+        {"title": "GBP: services + eerste post", "done": true, "note": "11 maart"},
+        {"title": "Resend domein geverifieerd", "done": true, "note": "11 maart"},
+        {"title": "Marketingplan geschreven", "done": true, "note": "11 maart"},
+        {"title": "Domeinen geregistreerd", "done": true, "note": "10 maart"},
+        {"title": "Naam gekozen: ORAVIVUM", "done": true, "note": "10 maart"},
+        {"title": "Implementatieplan", "done": true, "note": "10 maart"},
+        {"title": "5 demo-websites", "done": true, "note": "Feb"},
+        {"title": "8 research rapporten", "done": true},
+        {"title": "Executive summary", "done": true, "note": "21 feb"},
+        {"title": "Partner akkoord", "done": true, "note": "23 feb"},
+        {"title": "Botox-opleiding afgerond", "done": true},
+        {"title": "NVTS-examen 11 april", "done": true}
+      ]
+    }
+  ]
+}

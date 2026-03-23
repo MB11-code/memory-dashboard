@@ -1,0 +1,64 @@
+{
+  "lastUpdated": "2026-03-12T10:20:00Z",
+  "sections": [
+    {
+      "title": "In Progress",
+      "status": "in-progress",
+      "tasks": [
+        {"title": "Finale kwaliteitscontrole alle 7 hotels", "done": false, "note": "Moet 100% perfect zijn voor live"},
+        {"title": "liteAPI upgraden naar live account", "done": false, "note": "Marlon — creditcard toevoegen in dashboard.liteapi.travel"}
+      ]
+    },
+    {
+      "title": "To Do",
+      "status": "to-do",
+      "tasks": [
+        {"title": "Travelpayouts aanmelden", "done": false, "note": "Zodra site klaar"},
+        {"title": "Analytics toevoegen (Plausible/Vercel Analytics)", "done": false},
+        {"title": "Meer hotels laden", "done": false, "note": "142 in research, 30 in DB"},
+        {"title": "Homepage redesign", "done": false, "note": "Regions niet relevant met 7 hotels"},
+        {"title": "Currency localisatie", "done": false, "note": "Nu alles USD"}
+      ]
+    },
+    {
+      "title": "Recurring",
+      "status": "recurring",
+      "tasks": [
+        {"title": "Wekelijks: nieuwe hotel openingen researchen", "done": false, "note": "Hospitality Net, Skift, Forbes"},
+        {"title": "Wekelijks: Leaving Soon lijst updaten", "done": false}
+      ]
+    },
+    {
+      "title": "Done",
+      "status": "done",
+      "tasks": [
+        {"title": "QA bug fixes (response mapping, Emory verborgen)", "done": true, "note": "12 maart"},
+        {"title": "Booking flow end-to-end getest door Marlon", "done": true, "note": "11 maart"},
+        {"title": "Room matching verbeterd (striktere fuzzy matching)", "done": true, "note": "11 maart"},
+        {"title": "Booking flow bugs gefixt", "done": true, "note": "Payment method, children param"},
+        {"title": "Date picker mobile-friendly", "done": true},
+        {"title": "QA test (7/8 hotels OK, 3 boekingen succesvol)", "done": true},
+        {"title": "Revenue model uitgewerkt", "done": true},
+        {"title": "Affiliate research (Travelpayouts = beste optie)", "done": true},
+        {"title": "Room data (39 kamertypes, 8 hotels)", "done": true},
+        {"title": "Alle beschrijvingen herschreven", "done": true},
+        {"title": "80 foto's geladen via liteAPI CDN", "done": true},
+        {"title": "\"Leaving Soon\" badge", "done": true},
+        {"title": "About pagina", "done": true},
+        {"title": "SEO basis (sitemap, robots, OG metadata)", "done": true},
+        {"title": "liteAPI booking flow (rates → prebook → book)", "done": true},
+        {"title": "Hotels laden (30 in DB, 7 boekbaar)", "done": true},
+        {"title": "Supabase database (30 hotels, schema compleet)", "done": true},
+        {"title": "Deploy op Vercel (cinqstay.vercel.app)", "done": true},
+        {"title": "MVP gebouwd (Next.js + Tailwind)", "done": true},
+        {"title": "Research rapport (APIs, haalbaarheid, verdienmodel)", "done": true},
+        {"title": "liteAPI sandbox account aangemaakt", "done": true},
+        {"title": "CinqStay.com domein geregistreerd + Vercel gekoppeld", "done": true, "note": "12 maart"},
+        {"title": "Domeinnaam gekozen: CinqStay.com", "done": true},
+        {"title": "Hotellijst geverifieerd (142 hotels)", "done": true},
+        {"title": "Technisch design compleet", "done": true},
+        {"title": "Cron jobs ingericht", "done": true}
+      ]
+    }
+  ]
+}

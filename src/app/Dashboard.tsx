@@ -226,7 +226,7 @@ export default function Dashboard({ logs }: { logs: LogEntry[] }) {
       {/* Main content */}
       <main className="flex-1 min-h-screen">
         {/* Search bar */}
-        <div className="sticky top-0 z-20 bg-[#0a0a0a]/95 backdrop-blur border-b border-gray-800 px-4 lg:px-8 py-4">
+        <div className="sticky top-14 z-20 bg-[#0a0a0a]/95 backdrop-blur border-b border-gray-800 px-4 lg:px-8 py-4">
           <div className="max-w-4xl mx-auto flex items-center gap-4">
             <div className="flex-1 relative">
               <svg

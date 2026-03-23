@@ -3,11 +3,51 @@
     "id": "2026-03-23-001",
     "date": "2026-03-23",
     "time": "12:28",
-    "title": "Daily Memory Dashboard — Concept & Build",
+    "title": "Daily Memory Dashboard \u2014 Concept & Build",
     "summary": "Marlon stelde voor om een daily memory/logging systeem op te zetten. Alle gesprekken en beslissingen worden bijgehouden in een doorzoekbaar dashboard. Chris bouwt dit als web app (Next.js + Vercel), zelfde stijl als het taskboard. Chris heeft SOUL.md, HEARTBEAT.md en AGENTS.md aangepast zodat het dashboard actief bijgehouden wordt na elk gesprek.",
-    "tags": ["General"],
-    "decisions": ["Daily memory dashboard bouwen als web app", "Chris voegt na elk gesprek automatisch entries toe", "Wachtwoord-beveiliging verplicht", "Dashboard wordt het primaire geheugen-systeem"],
-    "actionItems": ["Vercel deployment afronden", "DASHBOARD_PASSWORD env var zetten", "Eerste echte entries toevoegen"],
-    "participants": ["Marlon", "Chris"]
+    "tags": [
+      "General"
+    ],
+    "decisions": [
+      "Daily memory dashboard bouwen als web app",
+      "Chris voegt na elk gesprek automatisch entries toe",
+      "Wachtwoord-beveiliging verplicht",
+      "Dashboard wordt het primaire geheugen-systeem"
+    ],
+    "actionItems": [
+      "Vercel deployment afronden",
+      "DASHBOARD_PASSWORD env var zetten",
+      "Eerste echte entries toevoegen"
+    ],
+    "participants": [
+      "Marlon",
+      "Chris"
+    ]
+  },
+  {
+    "id": "2026-03-23-002",
+    "date": "2026-03-23",
+    "time": "12:45",
+    "title": "R&D Lab - Autonomous Research Team Opgezet",
+    "summary": "Marlon wil een autonoom R&D team van 5 AI agents die dagelijks zijn projecten analyseren en een memo met aanbevelingen opleveren. Gebouwd: 5-fase orchestrator (Analist, Strateeg, Criticus, Bouwer, Synthesizer), R&D Lab tag op Memory Dashboard (cyan), cron job elke nacht om 04:00 CET. Resultaten komen in Telegram topic 6109 + dashboard.",
+    "tags": [
+      "R&D Lab",
+      "General"
+    ],
+    "decisions": [
+      "5 rollen in sequential pipeline",
+      "Dagelijks om 04:00 CET",
+      "Resultaten naar topic 6109 en dashboard",
+      "Revenue impact als prioritering"
+    ],
+    "actionItems": [
+      "Eerste test-run vandaag",
+      "Monitor eerste memo morgenochtend",
+      "Itereren op prompt kwaliteit"
+    ],
+    "participants": [
+      "Marlon",
+      "Chris"
+    ]
   }
 ]

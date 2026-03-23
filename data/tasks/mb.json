@@ -1,0 +1,52 @@
+{
+  "lastUpdated": "2026-03-12T10:07:00Z",
+  "sections": [
+    {
+      "title": "Urgent",
+      "status": "in-progress",
+      "tasks": [
+        {"title": "Summertime Spotify pitch", "done": false, "note": "Release 20 maart, deadline verstreken? Status onbekend"},
+        {"title": "IG hervatten", "done": false, "note": "Bijna 3 weken stilte! Algoritme-dood dreigt"},
+        {"title": "Booking mails", "done": false, "note": "4 weken vertraging, Marlon moet goedkeuren"}
+      ]
+    },
+    {
+      "title": "Wacht op Marlon",
+      "status": "waiting",
+      "tasks": [
+        {"title": "Booking mails goedkeuren + versturen", "done": false},
+        {"title": "Summertime pitch indienen via SfA", "done": false},
+        {"title": "IG posts posten (web upload werkt niet)", "done": false},
+        {"title": "Fotoshoot plannen", "done": false},
+        {"title": "Revealed Recordings account aanmaken + demo submitten", "done": false},
+        {"title": "SoundBetter producer kiezen", "done": false, "note": "Shortlist klaar"}
+      ]
+    },
+    {
+      "title": "To Do",
+      "status": "to-do",
+      "tasks": [
+        {"title": "Sync platform aanmelden (Songtradr/Pond5)", "done": false},
+        {"title": "Groover account + pitch", "done": false},
+        {"title": "Afterlight resultaten analyseren", "done": false},
+        {"title": "Kingsday submissions checken", "done": false}
+      ]
+    },
+    {
+      "title": "Done (recent)",
+      "status": "done",
+      "tasks": [
+        {"title": "Behind-the-track teksten", "done": true, "note": "5 tracks geschreven"},
+        {"title": "Crownsurge release day uitgevoerd", "done": true, "note": "13 maart, websites bijgewerkt"},
+        {"title": "Crownsurge op websites (MKJ + JOMAK)", "done": true, "note": "11 maart"},
+        {"title": "Revealed Recordings research", "done": true, "note": "Submission guide klaar"},
+        {"title": "Crownsurge Spotify pitch ingediend", "done": true, "note": "7 maart"},
+        {"title": "Crownsurge Spotify Canvas", "done": true, "note": "7 maart"},
+        {"title": "Link in Bio live", "done": true, "note": "26 feb"},
+        {"title": "Websites live met 42 tracks", "done": true, "note": "25 feb"},
+        {"title": "Masterplan herschreven", "done": true, "note": "24 feb"},
+        {"title": "Instagram contentplan maart", "done": true}
+      ]
+    }
+  ]
+}
