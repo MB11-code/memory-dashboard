@@ -3,12 +3,26 @@
     "id": "2026-03-23-001",
     "date": "2026-03-23",
     "time": "12:28",
-    "title": "Daily Memory Dashboard — Concept & Build",
+    "title": "Daily Memory Dashboard \u2014 Concept & Build",
     "summary": "Marlon stelde voor om een daily memory/logging systeem op te zetten. Alle gesprekken en beslissingen worden bijgehouden in een doorzoekbaar dashboard. Chris bouwt dit als web app (Next.js + Vercel), zelfde stijl als het taskboard. Chris heeft SOUL.md, HEARTBEAT.md en AGENTS.md aangepast zodat het dashboard actief bijgehouden wordt na elk gesprek.",
-    "tags": ["General"],
-    "decisions": ["Daily memory dashboard bouwen als web app", "Chris voegt na elk gesprek automatisch entries toe", "Wachtwoord-beveiliging verplicht", "Dashboard wordt het primaire geheugen-systeem"],
-    "actionItems": ["Vercel deployment afronden", "DASHBOARD_PASSWORD env var zetten", "Eerste echte entries toevoegen"],
-    "participants": ["Marlon", "Chris"]
+    "tags": [
+      "General"
+    ],
+    "decisions": [
+      "Daily memory dashboard bouwen als web app",
+      "Chris voegt na elk gesprek automatisch entries toe",
+      "Wachtwoord-beveiliging verplicht",
+      "Dashboard wordt het primaire geheugen-systeem"
+    ],
+    "actionItems": [
+      "Vercel deployment afronden",
+      "DASHBOARD_PASSWORD env var zetten",
+      "Eerste echte entries toevoegen"
+    ],
+    "participants": [
+      "Marlon",
+      "Chris"
+    ]
   },
   {
     "id": "2026-03-23-002",
@@ -16,10 +30,25 @@
     "time": "12:45",
     "title": "R&D Lab - Autonomous Research Team Opgezet",
     "summary": "Marlon wil een autonoom R&D team van 5 AI agents die dagelijks zijn projecten analyseren en een memo met aanbevelingen opleveren. Gebouwd: 5-fase orchestrator (Analist, Strateeg, Criticus, Bouwer, Synthesizer), R&D Lab tag op Memory Dashboard (cyan), cron job elke nacht om 04:00 CET. Resultaten komen in Telegram topic 6109 + dashboard.",
-    "tags": ["R&D Lab", "General"],
-    "decisions": ["5 rollen in sequential pipeline", "Dagelijks om 04:00 CET", "Resultaten naar topic 6109 en dashboard", "Revenue impact als prioritering"],
-    "actionItems": ["Eerste test-run vandaag", "Monitor eerste memo morgenochtend", "Itereren op prompt kwaliteit"],
-    "participants": ["Marlon", "Chris"]
+    "tags": [
+      "R&D Lab",
+      "General"
+    ],
+    "decisions": [
+      "5 rollen in sequential pipeline",
+      "Dagelijks om 04:00 CET",
+      "Resultaten naar topic 6109 en dashboard",
+      "Revenue impact als prioritering"
+    ],
+    "actionItems": [
+      "Eerste test-run vandaag",
+      "Monitor eerste memo morgenochtend",
+      "Itereren op prompt kwaliteit"
+    ],
+    "participants": [
+      "Marlon",
+      "Chris"
+    ]
   },
   {
     "id": "2026-03-23-003",
@@ -27,10 +56,21 @@
     "time": "12:50",
     "title": "Taskboard Gemerged in Memory Dashboard",
     "summary": "Marlon stelde voor om het taskboard en memory dashboard samen te voegen tot 1 app. 1 URL, 1 login, alles op 1 plek. Taskboard is nu een tab in het memory dashboard met alle 5 projecten (MKJ, Longevity, Revenue, CinqStay, DocuWrap) in Kanban-style kolommen. Oude taskboard-app blijft als backup.",
-    "tags": ["General"],
-    "decisions": ["Taskboard en memory dashboard samenvoegen", "Tasks als tweede tab naast Timeline", "Oude taskboard-app als backup behouden"],
-    "actionItems": ["Oude taskboard site offline halen zodra alles bewezen werkt"],
-    "participants": ["Marlon", "Chris"]
+    "tags": [
+      "General"
+    ],
+    "decisions": [
+      "Taskboard en memory dashboard samenvoegen",
+      "Tasks als tweede tab naast Timeline",
+      "Oude taskboard-app als backup behouden"
+    ],
+    "actionItems": [
+      "Oude taskboard site offline halen zodra alles bewezen werkt"
+    ],
+    "participants": [
+      "Marlon",
+      "Chris"
+    ]
   },
   {
     "id": "2026-03-23-004",
@@ -38,9 +78,46 @@
     "time": "12:55",
     "title": "Nachtelijke Autonome Taak Opgezet",
     "summary": "Marlon wil dat Chris elke nacht om 02:00 CET zelfstandig 1 taak uitvoert die dichter bij de doelen brengt. Chris leest masterplan, taskboards en doelen, kiest de meest impactvolle taak die zonder Marlon kan, voert die uit via sub-agent, logt in dashboard, en rapporteert ochtends in topic 80. Cron job aangemaakt.",
-    "tags": ["General"],
-    "decisions": ["Nachtelijke autonome taak om 02:00 CET", "Max 1 taak per nacht", "Alleen voorbereidend/bouwend werk", "Ochtend-rapport in topic 80"],
-    "actionItems": ["Eerste run vannacht 02:00", "Monitor resultaat morgenochtend"],
-    "participants": ["Marlon", "Chris"]
+    "tags": [
+      "General"
+    ],
+    "decisions": [
+      "Nachtelijke autonome taak om 02:00 CET",
+      "Max 1 taak per nacht",
+      "Alleen voorbereidend/bouwend werk",
+      "Ochtend-rapport in topic 80"
+    ],
+    "actionItems": [
+      "Eerste run vannacht 02:00",
+      "Monitor resultaat morgenochtend"
+    ],
+    "participants": [
+      "Marlon",
+      "Chris"
+    ]
+  },
+  {
+    "id": "2026-03-23-003",
+    "date": "2026-03-23",
+    "time": "13:06",
+    "title": "R&D Lab - Feedback Loop en Action Tracker",
+    "summary": "Marlon wees op het risico dat de R&D Lab steeds dezelfde aanbevelingen herhaalt. Feedback loop ingebouwd: action-tracker.json houdt status bij van alle aanbevelingen (open/in_progress/done/killed). R&D agent leest vorige memos en tracker EERST, herhaalt nooit afgeronde items. Elke memo begint met voortgang en focust op NIEUWE inzichten.",
+    "tags": [
+      "R&D Lab"
+    ],
+    "decisions": [
+      "Action tracker als feedback loop",
+      "Elke memo begint met voortgang",
+      "Nooit dezelfde aanbeveling herhalen",
+      "Status updaten bij afronding"
+    ],
+    "actionItems": [
+      "Bij elke afgeronde taak action-tracker.json updaten",
+      "Monitor of herhaling echt stopt na morgenochtend memo"
+    ],
+    "participants": [
+      "Marlon",
+      "Chris"
+    ]
   }
 ]
