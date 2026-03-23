@@ -221,5 +221,27 @@
       "Marlon",
       "Chris"
     ]
+  },
+  {
+    "date": "2026-03-23",
+    "title": "BespaarPilot — Validatie & Domeinen",
+    "summary": "Domeinen bespaarpilot.nl + .com geregistreerd door Marlon op GoDaddy (ipv TransIP). Marlon heeft 8 MKB-contacten geïdentificeerd voor validatie: 3 tandartspraktijk-eigenaren, 1 vastgoedbeheerder, 1 kleinschalige autofabrikant, 1 website bouwer, 1 azijnfabriek, 1 stomerij, 1 grote GGZ aanbieder. Eerste 4 reacties binnen: (1) Azijnfabriek: alles geregeld met externe partners — niet onze doelgroep. (2) Vastgoedbeheerder: checkt zelf + laat subsidies aan accountant over — denkt het geregeld te hebben. (3) Tandarts 1: geen idee van subsidies, energie zit in huur en ziet factuur niet, open voor gesprek — perfecte doelgroep. (4) Tandarts 2: \"ongeveer\" — ook niet scherp. Patroon: grotere bedrijven hebben het geregeld, kleinere praktijkhouders niet. Bevestigt positionering op MKB zonder facility manager.",
+    "tags": [
+      "BespaarPilot"
+    ],
+    "decisions": [
+      "Domeinen op GoDaddy ipv TransIP",
+      "GGZ te groot voor doelgroep — skippen",
+      "Positionering bevestigd: kleinere MKB zonder energieadviseur is ons gat"
+    ],
+    "action_items": [
+      "Wacht op resterende 4 reacties (tandarts 3, stomerij, autofabrikant, website bouwer)",
+      "Tandarts 1 follow-up: sparringsgesprek plannen",
+      "Chris: start bouw week 1 (Supabase, auth, subsidie scraper, landing page)"
+    ],
+    "actionItems": [],
+    "participants": [],
+    "time": "15:40",
+    "id": "2026-03-23-010"
   }
 ]
