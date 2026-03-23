@@ -1,0 +1,24 @@
+[
+  {
+    "id": "2026-03-22-001",
+    "date": "2026-03-22",
+    "time": "14:00",
+    "title": "CinqStay Hotel Platform Architecture",
+    "summary": "Reviewed liteAPI integration progress. Discussed the hotel data pipeline: fetching from liteAPI, enriching with manual curation (year built, etc.), and storing in Supabase. Decided to start with 50 boutique hotels in Amsterdam as pilot.",
+    "tags": ["CinqStay"],
+    "decisions": ["Start with 50 Amsterdam boutique hotels", "Use Supabase for enriched hotel data", "Manual curation for missing fields"],
+    "actionItems": ["Set up Supabase project for CinqStay", "Write hotel data enrichment script", "Curate first 10 hotels manually"],
+    "participants": ["Marlon", "Chris"]
+  },
+  {
+    "id": "2026-03-22-002",
+    "date": "2026-03-22",
+    "time": "09:30",
+    "title": "Taskboard App Improvements",
+    "summary": "Deployed taskboard updates. Added new project columns and improved the mobile layout. Password protection working correctly on Vercel.",
+    "tags": ["General"],
+    "decisions": ["Keep taskboard as central project tracker", "Add revenue tracking column"],
+    "actionItems": ["Add revenue tracking to taskboard"],
+    "participants": ["Chris"]
+  }
+]
