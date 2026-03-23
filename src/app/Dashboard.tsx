@@ -21,6 +21,7 @@ const ALL_TAGS = [
   "Trading",
   "Longevity",
   "ORAVIVUM",
+  "R&D Lab",
   "General",
 ];
 
@@ -32,6 +33,7 @@ const TAG_COLORS: Record<string, string> = {
   Trading: "bg-red-500/20 text-red-400 border-red-500/30",
   Longevity: "bg-teal-500/20 text-teal-400 border-teal-500/30",
   ORAVIVUM: "bg-pink-500/20 text-pink-400 border-pink-500/30",
+  "R&D Lab": "bg-cyan-500/20 text-cyan-400 border-cyan-500/30",
   General: "bg-gray-500/20 text-gray-400 border-gray-500/30",
 };
 
