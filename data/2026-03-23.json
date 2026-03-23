@@ -2,23 +2,12 @@
   {
     "id": "2026-03-23-001",
     "date": "2026-03-23",
-    "time": "12:30",
-    "title": "Daily Memory System Setup",
-    "summary": "Discussed building a daily memory dashboard to track all decisions, action items, and project progress across sessions. The goal is to have a searchable, filterable web app that serves as the team's institutional memory.",
+    "time": "12:28",
+    "title": "Daily Memory Dashboard — Concept & Build",
+    "summary": "Marlon stelde voor om een daily memory/logging systeem op te zetten. Alle gesprekken en beslissingen worden bijgehouden in een doorzoekbaar dashboard. Chris bouwt dit als web app (Next.js + Vercel), zelfde stijl als het taskboard. Chris heeft SOUL.md, HEARTBEAT.md en AGENTS.md aangepast zodat het dashboard actief bijgehouden wordt na elk gesprek.",
     "tags": ["General"],
-    "decisions": ["Build web dashboard for daily logs", "Use Next.js + JSON files (no external DB)", "Deploy via Vercel with GitHub auto-deploy"],
-    "actionItems": ["Set up Next.js app", "Deploy to Vercel", "Pre-populate with sample entries"],
-    "participants": ["Marlon", "Chris"]
-  },
-  {
-    "id": "2026-03-23-002",
-    "date": "2026-03-23",
-    "time": "10:15",
-    "title": "MKJ Release Strategy Update",
-    "summary": "Reviewed the weekly release cadence. Discussed canvas video generation pipeline improvements with Kling v3. New approach: generate 3 canvas options per release, let Marlon pick the best one.",
-    "tags": ["MKJ"],
-    "decisions": ["Generate 3 canvas options per release", "Stick with Friday release schedule", "Prioritize Spotify playlist pitching"],
-    "actionItems": ["Prepare next Friday's release assets", "Test Kling v3 with new cover art"],
+    "decisions": ["Daily memory dashboard bouwen als web app", "Chris voegt na elk gesprek automatisch entries toe", "Wachtwoord-beveiliging verplicht", "Dashboard wordt het primaire geheugen-systeem"],
+    "actionItems": ["Vercel deployment afronden", "DASHBOARD_PASSWORD env var zetten", "Eerste echte entries toevoegen"],
     "participants": ["Marlon", "Chris"]
   }
 ]
