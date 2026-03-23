@@ -1,9 +1,59 @@
 [
   {
+    "id": "2026-03-23-006",
+    "date": "2026-03-23",
+    "time": "09:16",
+    "title": "CinqStay — Massive Hotel Discovery Sprint (Q4 2021 t/m Q1 2025)",
+    "summary": "Volledige hotel discovery van Q4 2021 t/m Q1 2025 afgerond in ~2 uur. ~130 hotels onderzocht, ~50 nieuw toegevoegd aan de site. Discovery rapporten geschreven per kwartaal. Problemen opgelost: Casa Baglioni verwijderd (404 fotos), verkeerde matches gecorrigeerd (One&Only Royal Mirage, Waldhof Fuschlsee, St. Regis Vommuli). Commissie/prijsmodel uitgezocht: SSP gebruiken (8-27% automatische commissie). Prijzen van kaarten verwijderd op Marlon instructie. liteAPI betalingsmodel bevestigd: liteAPI = merchant of record, nul risico voor Marlon. Beehiiv account aangemaakt door Marlon (marlon@cinqstay.com). liteAPI wachtwoord gereset en geverifieerd.",
+    "tags": [
+      "CinqStay"
+    ],
+    "decisions": [
+      "SSP prijsmodel gebruiken (automatische commissie 8-27%)",
+      "Prijzen van hotelkaarten verwijderd (Marlon: niet voorliegen)",
+      "Casa Baglioni verwijderd wegens 404 fotos",
+      "Hotels zonder werkende fotos horen niet op de site",
+      "liteAPI = merchant of record, Marlon schiet niks voor",
+      "Beehiiv Scale trial → daarna Launch/gratis plan"
+    ],
+    "actionItems": [
+      "Beehiiv newsletter opzetten (design + eerste issue)",
+      "Wachtlijst hotels periodiek checken",
+      "Hotel expiry check maandelijks"
+    ],
+    "participants": [
+      "Marlon",
+      "Chris"
+    ]
+  },
+  {
+    "id": "2026-03-23-007",
+    "date": "2026-03-23",
+    "time": "11:00",
+    "title": "CinqStay — The Legends Collectie Gebouwd (57 hotels)",
+    "summary": "Nieuwe collectie \"The Legends\" gebouwd: iconische 5-sterren hotels ouder dan 5 jaar, apart tabblad op cinqstay.com/legends. 57 legends live: Ritz Paris, Burj Al Arab, Peninsula HK, Beverly Hills Hotel, etc. Database: collection kolom (new/legend), legends verlopen nooit. Homepage sectie + navigatie tabblad toegevoegd. Full hotel audit: 26 hotels door de mazen gevallen, 5 succesvol toegevoegd, wachtlijst nu 69 hotels. 4 duplicaten gedetecteerd. Script verbeterd met extra country codes.",
+    "tags": [
+      "CinqStay"
+    ],
+    "decisions": [
+      "Legends = apart tabblad, verlopen nooit (geen 5-jaar window)",
+      "Criteria: 5 sterren, pre-2021, rating 9.0+, boekbaar, 3/5 prestige-indicatoren",
+      "Wachtlijst bijhouden voor niet-boekbare hotels"
+    ],
+    "actionItems": [
+      "Wachtlijst periodiek checken op liteAPI beschikbaarheid",
+      "Duplicaten in Supabase opschonen"
+    ],
+    "participants": [
+      "Marlon",
+      "Chris"
+    ]
+  },
+  {
     "id": "2026-03-23-001",
     "date": "2026-03-23",
     "time": "12:28",
-    "title": "Daily Memory Dashboard \u2014 Concept & Build",
+    "title": "Daily Memory Dashboard — Concept & Build",
     "summary": "Marlon stelde voor om een daily memory/logging systeem op te zetten. Alle gesprekken en beslissingen worden bijgehouden in een doorzoekbaar dashboard. Chris bouwt dit als web app (Next.js + Vercel), zelfde stijl als het taskboard. Chris heeft SOUL.md, HEARTBEAT.md en AGENTS.md aangepast zodat het dashboard actief bijgehouden wordt na elk gesprek.",
     "tags": [
       "General"
@@ -114,6 +164,30 @@
     "actionItems": [
       "Bij elke afgeronde taak action-tracker.json updaten",
       "Monitor of herhaling echt stopt na morgenochtend memo"
+    ],
+    "participants": [
+      "Marlon",
+      "Chris"
+    ]
+  },
+  {
+    "id": "2026-03-23-008",
+    "date": "2026-03-23",
+    "time": "13:30",
+    "title": "Memory Dashboard als Primair Geheugen — Workflow Ingebouwd",
+    "summary": "Marlon vroeg of Chris het dashboard ook gebruikt om context op te halen bij gesprekken. Antwoord was nee — dit was een gat. Nieuwe workflow ingebouwd in SOUL.md en AGENTS.md: bij elk project-gesprek EERST dashboard raadplegen, dan pas reageren, na gesprek entry toevoegen. MEMORY.md = samenvatting, dashboard = details en bron van waarheid. API POST werkend gemaakt via GitHub Content API. Backfill compleet: 57 entries van 18 feb t/m 22 maart.",
+    "tags": [
+      "General"
+    ],
+    "decisions": [
+      "Dashboard = primaire geheugenbron bij project-gesprekken",
+      "MEMORY.md = samenvatting, dashboard = details",
+      "Workflow: project → dashboard ophalen → reageren → entry toevoegen",
+      "API POST via GitHub Content API ipv filesystem"
+    ],
+    "actionItems": [
+      "DASHBOARD_PASSWORD env var lokaal opslaan voor API access",
+      "Workflow testen in volgende project-gesprek"
     ],
     "participants": [
       "Marlon",
