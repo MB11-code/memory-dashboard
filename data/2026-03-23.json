@@ -243,5 +243,25 @@
     "participants": [],
     "time": "15:40",
     "id": "2026-03-23-010"
+  },
+  {
+    "date": "2026-03-23",
+    "title": "BespaarPilot — Project Gestopt",
+    "summary": "BespaarPilot project gestopt na validatie en haalbaarheidsanalyse. Score 5.2/10. Drie fatale problemen: (1) onbewust probleem — doelgroep zoekt niet actief, (2) gratis concurrentie — DEB.nl en 365Subsidiescan doen het deels gratis, (3) laagfrequent product — energiebesparing en subsidies zijn 1x per jaar relevant, geen enkel prijsmodel (abonnement, eenmalig, B2B2C via boekhouders) lost dit fundamenteel op. Validatie: 5 van 8 reacties binnen. Grotere bedrijven hebben het geregeld, kleinere weten het niet maar zoeken niet actief. Pivot naar boekhouders overwogen maar zelfde probleem: waarom €199/mnd voor iets dat 1x/jaar gebruikt wordt? Besluit: verlies nemen (€20 domeinen), lessen meenemen.",
+    "tags": [
+      "BespaarPilot"
+    ],
+    "decisions": [
+      "Project gestopt — geen viable verdienmodel",
+      "Domeinen bespaarpilot.nl + .com behouden of laten verlopen",
+      "Lessen: altijd verdienmodel valideren voor je bouwt, laagfrequent = lastig als SaaS"
+    ],
+    "action_items": [
+      "Geen — project gearchiveerd"
+    ],
+    "actionItems": [],
+    "participants": [],
+    "time": "16:47",
+    "id": "2026-03-23-011"
   }
 ]
