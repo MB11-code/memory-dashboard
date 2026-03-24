@@ -184,5 +184,25 @@
     ],
     "participants": [],
     "id": "2026-03-24-009"
+  },
+  {
+    "date": "2026-03-24",
+    "time": "14:00",
+    "title": "Spotify Q4 Earnings — AI Insights voor MKJ Strategie",
+    "summary": "Spotify gebruikt intern Claude Code via Honk systeem — engineers geven opdrachten vanuit Slack, Claude Code bouwt/fixt, resultaat terug op telefoon. Beste developers bij Spotify hebben sinds december geen regel code meer geschreven. 50+ features shipped in 2025 dankzij AI-versnelling. Spotify bouwt unieke dataset over muziekvoorkeur per regio/context — geen andere partij heeft dit op deze schaal. Nieuwe features: Prompted Playlists, About This Song, Page Match. AI-muziek beleid: artiesten/labels kunnen in metadata aangeven hoe track gemaakt is, Spotify pakt spam aan. Bevestigt onze strategie: metadata cruciaal, ghost producer voor A-releases is de juiste keuze, AI-labeling trend is onomkeerbaar.",
+    "tags": [
+      "MKJ"
+    ],
+    "decisions": [
+      "Spotify AI-labeling trend bevestigt urgentie ghost producer strategie",
+      "Metadata wordt steeds belangrijker — altijd zorgvuldig invullen",
+      "AI-muziek labeling is onomkeerbaar — nooit publiek AI-gebruik noemen"
+    ],
+    "actionItems": [
+      "Metadata van alle releases controleren op volledigheid",
+      "Ghost producer tracks als prioriteit blijven behandelen"
+    ],
+    "participants": [],
+    "id": "2026-03-24-010"
   }
 ]
