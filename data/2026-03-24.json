@@ -38,5 +38,30 @@
     "actionItems": [],
     "participants": [],
     "id": "2026-03-24-002"
+  },
+  {
+    "date": "2026-03-24",
+    "time": "09:30",
+    "title": "DocuWrap — Pivot naar Psychologen + Hessel Meeting Vrijdag",
+    "summary": "Marlon bevestigt: DocuWrap focust nu 100% op psychologen als doelgroep. Reden: regelgeving in GGZ eist steeds meer documentatie (NZa, IGJ, Wkkgz, Kwaliteitsstatuut) — maakt DocuWrap need-to-have ipv nice-to-have. MVP spec ligt klaar (projects/docuwrap/mvp-spec.md), one-pager voor Hessel gemaakt, demo server draait (AssemblyAI + Gemini, speaker diarization). BELANGRIJK: vrijdag 28 maart heeft Marlon afspraak met Hessel — eigenaar van meerdere psychologenpraktijken en goede vriend. Hessel heeft de one-pager al ontvangen. CRUCIAAL: Hessel zijn praktijken zijn AL een pilot aan het starten met een andere tool — we weten nog niet welke. Strategie: eerst luisteren, info verzamelen over concurrent, dan positioneren. Talking points opgesteld en aan Marlon gegeven. Cruciale info om mee terug te komen: welke tool, kosten, aantal psychologen, wat ze missen, bereidheid parallelle test.",
+    "tags": [
+      "DocuWrap"
+    ],
+    "decisions": [
+      "Focus 100% op psychologen als doelgroep",
+      "Vrijdag 28 maart = Hessel meeting — voorbereiding moet top zijn",
+      "Strategie: luisteren eerst, concurrent info verzamelen, dan positioneren",
+      "One-pager + talking points klaar voor Marlon"
+    ],
+    "actionItems": [
+      "Marlon: meeting met Hessel vrijdag 28 maart",
+      "Chris: demo opschonen voor vrijdag",
+      "Marlon: cruciale info meenemen — welke tool, kosten, aantal psychologen, wat ze missen, bereidheid parallelle test"
+    ],
+    "participants": [
+      "Marlon",
+      "Chris"
+    ],
+    "id": "2026-03-24-003"
   }
 ]
