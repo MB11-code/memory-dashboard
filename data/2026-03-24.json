@@ -165,5 +165,24 @@
     ],
     "participants": [],
     "id": "2026-03-24-008"
+  },
+  {
+    "date": "2026-03-24",
+    "time": "13:15",
+    "title": "Auto Switch & Save — R&D Team Onderzoek → NO-GO",
+    "summary": "Marlon zag BNR artikel over Nederlanders die AI-chatbots gebruiken voor financieel advies. Idee: switch-tool die automatisch switcht naar goedkopere opties (energie, telecom, abonnementen, sparen). R&D Team gespawnd met 4 agents (Marktonderzoeker, Technisch Analist, Criticus, Synthesizer). Rapporten opgeleverd in projects/revenue/. Eindadvies: NO-GO — 8/10 validatiecriteria rood, zelfde patroon als BespaarPilot. Killers: automatisch is technisch illusie (SCA vereist handmatige bevestiging), unit economics -97%, geen moat, Dyme/Independer te sterk. Marlon evalueerde ook het R&D proces: structuur goed maar agents praten niet echt met elkaar, te weinig rondes. Mijn evaluatie: 7/10 als prototype.",
+    "tags": [
+      "Revenue"
+    ],
+    "decisions": [
+      "NO-GO — automatisch switchen is technisch onmogelijk door SCA regelgeving",
+      "Zelfde patroon als BespaarPilot",
+      "R&D proces moet verbeteren: meer rondes, agents die doorvragen"
+    ],
+    "actionItems": [
+      "R&D Orchestrator tool bouwen voor betere multi-agent research"
+    ],
+    "participants": [],
+    "id": "2026-03-24-009"
   }
 ]
