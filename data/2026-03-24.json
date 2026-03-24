@@ -63,5 +63,28 @@
       "Chris"
     ],
     "id": "2026-03-24-003"
+  },
+  {
+    "date": "2026-03-24",
+    "title": "ORAVIVUM Site Fixes + Google Ads Conversie-tracking",
+    "summary": "Site-audit fixes + Google Ads conversie-tracking volledig opgezet. Schema markup .COM naar .NL gefixt (15 verwijzingen, 7 bestanden). Lead form conversie aangemaakt in Google Ads (SUBMIT_LEAD_FORM, event-based). Click-to-call oproepasset bevestigd actief. Campagnes draaien (Bruxisme + Brand). Cookie banner en contactformulier waren al goed. Maandag 30 maart: Google Ads + GA4 review sessie gepland.",
+    "tags": [
+      "ORAVIVUM"
+    ],
+    "decisions": [
+      "Schema markup moet oravivum.nl zijn (niet .com)",
+      "Google Ads gebruikt nieuw event-based conversion format",
+      "Click-to-call inactief is normaal (wacht op eerste conversie)",
+      "Maandag 30 maart Google Ads review gepland"
+    ],
+    "action_items": [
+      "MA 30 maart: Google Ads + GA4 controleren en zoekwoorden uitsluiten",
+      "Enhanced conversions aanzetten in Google Ads",
+      "Google Ads wekelijkse cron job fixen (geeft errors)"
+    ],
+    "actionItems": [],
+    "participants": [],
+    "time": "11:00",
+    "id": "2026-03-24-004"
   }
 ]
