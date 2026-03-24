@@ -126,5 +126,26 @@
     ],
     "participants": [],
     "id": "2026-03-24-006"
+  },
+  {
+    "date": "2026-03-24",
+    "time": "13:44",
+    "title": "R&D Orchestrator Tool — Bouw Gestart",
+    "summary": "Herbruikbaar framework gestart dat multi-agent R&D research automatiseert. Elke keer dat we een nieuw idee evalueren, hoeven we niet handmatig agents te spawnen. Features: idee als input → meerdere rondes → agents bevragen elkaar → browser/web research → gestructureerd rapport → toets aan validatie-playbook. Gebouwd door Claude Code met ruime timeout. Directe aanleiding: Auto Switch & Save evaluatie toonde dat het handmatige R&D proces verbeterd moet worden (meer rondes, agents die doorvragen, primaire bronnen).",
+    "tags": [
+      "Revenue",
+      "R&D Lab"
+    ],
+    "decisions": [
+      "R&D orchestrator bouwen als herbruikbare tool",
+      "Multi-ronde debat ipv single-pass pipeline",
+      "Agents moeten elkaar kunnen bevragen"
+    ],
+    "actionItems": [
+      "Claude Code bouwt tool in projects/revenue/rnd-orchestrator-tool/",
+      "Testen met volgend idee dat Marlon brengt"
+    ],
+    "participants": [],
+    "id": "2026-03-24-007"
   }
 ]
