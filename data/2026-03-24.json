@@ -86,5 +86,26 @@
     "participants": [],
     "time": "11:00",
     "id": "2026-03-24-004"
+  },
+  {
+    "date": "2026-03-24",
+    "time": "12:00",
+    "title": "DocuWrap Demo Opgepoetst + Cloudflare Tunnel Live",
+    "summary": "Claude Code heeft de DocuWrap demo volledig opgepoetst voor de Hessel meeting van vrijdag 28 maart. Nieuwe features: mobile-first UI, modus-keuze (installateur/psycholoog), consent flow, PWA-ready, professioneel design. Demo draait online via Cloudflare tunnel: https://while-bool-oops-deployment.trycloudflare.com (server op localhost:3456). BELANGRIJK: tunnel opnieuw starten als Mac mini herstart (cloudflared tunnel --url http://localhost:3456). Marlon test DONDERDAG MIDDAG. Vrijdag meeting met Hessel.",
+    "tags": [
+      "DocuWrap"
+    ],
+    "decisions": [
+      "Demo geüpgraded naar professioneel niveau voor Hessel meeting",
+      "Cloudflare tunnel als tijdelijke hosting voor demo",
+      "Marlon test donderdag, Hessel meeting vrijdag"
+    ],
+    "actionItems": [
+      "Marlon: demo testen donderdag middag",
+      "Tunnel opnieuw starten als Mac mini herstart",
+      "Vrijdag: Hessel meeting met werkende demo"
+    ],
+    "participants": [],
+    "id": "2026-03-24-005"
   }
 ]
