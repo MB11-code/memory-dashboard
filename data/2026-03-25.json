@@ -109,5 +109,30 @@
       "Chris"
     ],
     "id": "2026-03-25-005"
+  },
+  {
+    "date": "2026-03-25",
+    "time": "12:25",
+    "title": "PandaDoc Templates — Marlon Feedback Verwerkt",
+    "summary": "Beide contracten succesvol omgezet van drafts naar herbruikbare PandaDoc templates. Marlon feedback verwerkt: if applicable verwijderd bij deliverables (alles verplicht), betaling flexibel (platform/bank/PayPal + valuta-invulveld), NDA duur van 5 naar 10 jaar, royalty/credit clausules verwijderd, contracten vertaald naar Engels, Nederlands recht + NAI arbitrage Amsterdam (170+ landen via New York Convention). Genre/stijl bewust buiten contract gehouden (hoort in briefing). Pandoc geinstalleerd voor markdown naar docx conversie. Workflow per deal: Templates → Create document → placeholders → Signature blokken → Send.",
+    "tags": [
+      "MKJ",
+      "contracts",
+      "legal"
+    ],
+    "decisions": [
+      "Templates herbruikbaar in PandaDoc (niet per-deal handmatig)",
+      "NDA duur 10 jaar, ghost production geheim onbeperkt",
+      "Alle deliverables verplicht (geen if applicable)",
+      "Genre/stijl in briefing, niet in contract"
+    ],
+    "actionItems": [
+      "Bij eerste deal: workflow testen via PandaDoc"
+    ],
+    "participants": [
+      "Marlon",
+      "Chris"
+    ],
+    "id": "2026-03-25-006"
   }
 ]
