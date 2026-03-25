@@ -35,5 +35,30 @@
     "actionItems": [],
     "participants": [],
     "id": "2026-03-25-002"
+  },
+  {
+    "date": "2026-03-25",
+    "time": "10:00",
+    "title": "Workspace Optimalisatie — AGENTS.md, MEMORY.md, Crons",
+    "summary": "Marlon deelde YouTube video over OpenClaw best practices. 8 punten besproken en uitgevoerd: Sub-Agent Policy toegevoegd aan AGENTS.md (delivery sequence, failure handling, zelf vs delegeer). MEMORY.md opgeschoond van 42K naar 4.8K tekens. WORKSPACE-FILES.md en LEARNINGS.md aangemaakt. Logging Policy en Testing Policy toegevoegd. Nieuw Telegram topic 6632 (Cron Updates) aangemaakt, ~12 crons geüpdated naar dit topic. Wekelijkse MD Opschoning cron (zo 03:00 CET) aangemaakt. Dubbele Memory Dashboard regels uit SOUL.md gecondenseerd. Marlon heeft /reasoning aangezet (extended thinking).",
+    "tags": [
+      "General"
+    ],
+    "decisions": [
+      "Sub-Agent Policy met delivery sequence verplicht",
+      "MEMORY.md max 15K houden, wekelijks opschonen",
+      "Alle cron output naar topic 6632",
+      "Testing policy: niets is klaar zonder verificatie",
+      "Extended thinking (reasoning) aangezet"
+    ],
+    "actionItems": [
+      "Wekelijkse opschoning monitoren (eerste run zo 30 maart 03:00)",
+      "LEARNINGS.md bijhouden bij nieuwe lessen"
+    ],
+    "participants": [
+      "Marlon",
+      "Chris"
+    ],
+    "id": "2026-03-25-003"
   }
 ]
