@@ -160,5 +160,27 @@
     "actionItems": [],
     "participants": [],
     "id": "2026-03-25-007"
+  },
+  {
+    "date": "2026-03-25",
+    "time": "17:30",
+    "title": "CinqStay Cron Test — INCIDENT: 88 Hotels Onterecht Unpublished",
+    "summary": "Alle 4 CinqStay crons getest. Health Check OK (44 sec). Hotel Expiry Check OK maar heeft 88 hotels ONTERECHT unpublished — database gebruikte 3-jaar expiry ipv 5 jaar. 87 Explore-hotels + 13 Legends terug gepublished. Database gemigreerd: expiry van 3 naar 5 jaar, view herschreven zodat Legends + Beach/City expiry bypassen. Discovery + Waitlist OK (113 sec). Unpublished re-check script klaar maar cron ontbreekt nog. Eindresultaat: 201 hotels in view (was 187 voor incident).",
+    "tags": [
+      "CinqStay"
+    ],
+    "decisions": [
+      "Expiry naar 5 jaar in database",
+      "Legends en Beach/City bypassen expiry volledig",
+      "Alleen Explore-collectie expireert"
+    ],
+    "actionItems": [
+      "Unpublished re-check cron aanmaken",
+      "Expiry cron opnieuw testen na fix"
+    ],
+    "participants": [
+      "Chris"
+    ],
+    "id": "2026-03-25-008"
   }
 ]
