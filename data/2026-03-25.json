@@ -134,5 +134,31 @@
       "Chris"
     ],
     "id": "2026-03-25-006"
+  },
+  {
+    "date": "2026-03-25",
+    "time": "17:25",
+    "title": "CinqStay — Grote Expansion Sprint (Database, Tags, Beach/City, Strategie)",
+    "summary": "Massieve CinqStay sessie. Database opgeschoond (10 duplicaten verwijderd, Black Sand weg). Tag-systeem gebouwd: beach (56) en city (87) hotels getagd. /beach en /city pagina's LIVE op cinqstay.com met homepage secties en header navigatie. GROTE ONTDEKKING: discovery.js scande slechts 35 steden, liteAPI nooit systematisch doorzocht — steekproef 10 landen leverde 800 vijf-sterren hotels op die we nooit gezien hadden. Rating-systeem uitgezocht: liteAPI = Booking.com 1-10 schaal, onze conversie klopt. Strategische beslissingen: rating-grens per collectie (Explore geen, Beach/City 4.4/5, Legends geen), minimum reviews Beach/City 50+, alle ~200 landen scannen, beach = cash cow (~€85 vs €21 city), opening date = moat. Masterplan + stappenplan geschreven. Instagram @cinqstay aangemaakt door Marlon.",
+    "tags": [
+      "CinqStay"
+    ],
+    "decisions": [
+      "liteAPI-first discovery als nieuwe aanpak",
+      "Alle ~200 landen scannen",
+      "Rating-grens: Explore geen, Beach/City 4.4/5, Legends geen",
+      "Minimum reviews: Beach/City 50+",
+      "Beach = cash cow prioriteit",
+      "Opening date = moat differentiator"
+    ],
+    "action_items": [
+      "Global liteAPI country scan bouwen (200 landen)",
+      "Unpublished re-check cron aanmaken",
+      "Discovery cron vervangen door global scan",
+      "Health check + expiry crons testen"
+    ],
+    "actionItems": [],
+    "participants": [],
+    "id": "2026-03-25-007"
   }
 ]
