@@ -89,5 +89,29 @@
       "Marlon",
       "Chris"
     ]
+  },
+  {
+    "id": "2026-03-26-005",
+    "date": "2026-03-26",
+    "time": "12:26",
+    "title": "Klant & Bestemmingen Strategie — Ring-Systeem GOEDGEKEURD",
+    "summary": "Marlon akkoord op ring-systeem voor hotel prioritering. Ring 1 (KERN): Parijs, London, Rome, Barcelona, Amalfikust, Côte d Azur, Maldiven, Bali, Santorini, Seychellen, Dubai, Abu Dhabi. Ring 2 (STERK): Mallorca, Ibiza, Griekse eilanden, Toscane, Lake Como, Thailand, Japan, Kaapstad, Safari, Caribbean. Ring 3 (NICHE): Istanbul, Oman, Mexico, Mauritius, Marrakech. NIET: China, India (behalve 10-20), Vietnam, Oost-Europa, Scandinavië. Patroon: klant woont in Westen/Golf, reist naar warm + mooi + premium. Document geschreven en masterplan + stappenplan bijgewerkt.",
+    "tags": [
+      "CinqStay"
+    ],
+    "decisions": [
+      "Ring-systeem goedgekeurd als leidend voor alle hotel-toevoegingen",
+      "Ring 1 = 12 kernbestemmingen",
+      "China, India, Vietnam, Oost-Europa, Scandinavië uitgesloten",
+      "Dit is leidend voor content, marketing en hotel expansie"
+    ],
+    "actionItems": [
+      "Hotel pipeline filteren op ring-systeem",
+      "Content eerst focussen op Ring 1 bestemmingen"
+    ],
+    "participants": [
+      "Marlon",
+      "Chris"
+    ]
   }
 ]
