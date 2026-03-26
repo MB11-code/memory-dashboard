@@ -137,5 +137,29 @@
     "participants": [
       "Chris"
     ]
+  },
+  {
+    "id": "2026-03-26-007",
+    "date": "2026-03-26",
+    "time": "12:49",
+    "title": "CinqStay Marketing Teruggeschaald — Focus op SEO/Blog",
+    "summary": "IG teruggeschaald van 5 naar 3 posts/week: Maandag 18:00 Carousel, Woensdag 12:00 Reel, Vrijdag 12:00 Reel. Stories 3-4x per week ipv dagelijks. Reden: IG levert geen boekingen, is alleen etalage/vertrouwen. Pinterest geschrapt (te veel handmatig werk, geen prioriteit). Focus verlegd naar SEO/blog (3 artikelen/week) — dit levert boekingen. Newsletter teruggeschaald naar 2x per maand (1e + 15e) — geen subscribers om wekelijks te mailen.",
+    "tags": [
+      "CinqStay"
+    ],
+    "decisions": [
+      "IG van 5 naar 3 posts per week",
+      "Pinterest geschrapt",
+      "SEO/blog = primaire focus (3 artikelen/week)",
+      "Newsletter 2x per maand ipv wekelijks"
+    ],
+    "actionItems": [
+      "Cron jobs aanpassen aan nieuw schema",
+      "Blog content pipeline prioriteren"
+    ],
+    "participants": [
+      "Marlon",
+      "Chris"
+    ]
   }
 ]
