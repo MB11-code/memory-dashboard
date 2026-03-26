@@ -1,0 +1,16 @@
+[
+  {
+    "id": "2026-03-26-001",
+    "date": "2026-03-26",
+    "title": "Nachtelijke Taak: Beach-City rating fix + global-scan.js",
+    "summary": "Fase 0.1 afgerond: rating filter 4.6 naar 4.4 in 4 bestanden. Fase 1.1: global-scan.js gebouwd (561 regels, 97 landen). Test Oceanie OK: 157 nieuwe hotels gevonden. Commit af44f48.",
+    "tags": [
+      "CinqStay",
+      "nachtelijke-taak"
+    ],
+    "decisions": [],
+    "actionItems": [],
+    "participants": [],
+    "time": "01:07"
+  }
+]
