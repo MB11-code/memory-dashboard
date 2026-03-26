@@ -64,5 +64,30 @@
       "Marlon",
       "Chris"
     ]
+  },
+  {
+    "id": "2026-03-26-004",
+    "date": "2026-03-26",
+    "time": "11:40",
+    "title": "CinqStay Marketing Kickoff — Cron Jobs + Beehiiv + Facebook",
+    "summary": "Marlon akkoord op marketingplan, start morgen 27 maart. 4 cron jobs aangemaakt (alle 03:00 CET): Daily IG Content Prep, Daily Blog Article (ma/wo/vr), Weekly Newsletter Prep (donderdag), Weekly SEO + Pinterest (woensdag). IG bio tekst klaargemaakt. Beehiiv account actief (cinqstay.beehiiv.com), naam/beschrijving/timezone correct. Logo gegenereerd (cinqstay-logo-800.png), upload handmatig door Marlon. Mapstructuur aangemaakt: ig-queue/, ig-archive/, newsletter/. Facebook-pagina CinqStay aangemaakt (Travel Agency categorie). Topic 7140 = CinqStay marketing command center.",
+    "tags": [
+      "CinqStay"
+    ],
+    "decisions": [
+      "Marketing start morgen 27 maart",
+      "4 cron jobs voor content productie",
+      "Topic 7140 als marketing command center",
+      "Facebook-pagina aangemaakt"
+    ],
+    "actionItems": [
+      "Marlon: IG bio + profielfoto instellen",
+      "Marlon: Beehiiv logo uploaden",
+      "Eerste content productie morgen 03:00 CET"
+    ],
+    "participants": [
+      "Marlon",
+      "Chris"
+    ]
   }
 ]
