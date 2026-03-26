@@ -113,5 +113,29 @@
       "Marlon",
       "Chris"
     ]
+  },
+  {
+    "id": "2026-03-26-006",
+    "date": "2026-03-26",
+    "time": "12:08",
+    "title": "R&D Team — IG Content Strategie Rapport",
+    "summary": "R&D team (4 rondes, ~30 min) leverde IG content strategie rapport op. Kernwaarschuwing: IG naar booking conversie is 0.02-0.1%, 4 startups gefaald op dit model. Maar wij gebruiken IG voor merkbekendheid, niet direct revenue. SEO + newsletter zijn de echte conversiemachines. Eerste 10 hotels voor IG: focus op visueel sterke Ring 1 bestemmingen (Maldiven, Dubai, Santorini). Marlon als gezicht in 1 op 3 Reels (IG pusht gezichten 2-3x meer). Bottleneck: press kits aanvragen voor beeldmateriaal.",
+    "tags": [
+      "CinqStay",
+      "R&D Lab"
+    ],
+    "decisions": [
+      "IG is etalage/vertrouwen, niet revenue driver",
+      "SEO + newsletter zijn conversiemachines",
+      "Marlon als gezicht in 1 op 3 Reels",
+      "Eerste 10 IG hotels: Ring 1 visueel sterk"
+    ],
+    "actionItems": [
+      "Press kits aanvragen bij eerste 10 hotels",
+      "Marlon-gezicht Reels plannen"
+    ],
+    "participants": [
+      "Chris"
+    ]
   }
 ]
