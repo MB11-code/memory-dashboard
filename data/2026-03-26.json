@@ -36,5 +36,33 @@
       "Marlon",
       "Chris"
     ]
+  },
+  {
+    "id": "2026-03-26-003",
+    "date": "2026-03-26",
+    "time": "09:53",
+    "title": "CinqStay — Grote Sessie met Marlon (Site Fixes, CUG, Hotel Scan, Marketing)",
+    "summary": "Uitgebreide sessie in topic 1328. Site fixes deployed: dubbele Beach/City secties verwijderd, Starting from prijzen weg, Secure booking tekst aangepast (geen liteAPI vermelding), desktop nav bijgewerkt. Blog upgrade: Raffles London hero foto gefixt, complete rendering upgrade met Tailwind typography, pull-quotes, foto's, info-boxen — wordt template voor alle artikelen. Kjelt/Nuitee CUG BEVESTIGD: we kunnen hun netwerk gebruiken voor CUG-rates, voorwaarde is CUG-omgeving bouwen (prijzen niet publiek). Call gepland week 7 april. CUG research: technisch simpel (margin parameter), 9 concurrenten onderzocht, Open CUG met luxury framing aanbevolen. Marlon's inzicht: CUG = lagere inkoopprijs, marge verdubbelt. Hotel scan cleanup: 37.934 naar 25.026 hotels (4 rondes, 12.908 eruit). 11.997 Beach/City kandidaten over. Marketing uitvoeringsplan geschreven. Marktonderzoek luxury travel gestart (sub-agent).",
+    "tags": [
+      "CinqStay"
+    ],
+    "decisions": [
+      "CUG-omgeving bouwen (prijzen achter login)",
+      "Open CUG met luxury framing als strategie",
+      "CUG = lagere inkoopprijs, marge verdubbelt",
+      "Hotel scan van 37.934 naar 25.026 na cleanup",
+      "Blog rendering upgrade als template voor alle artikelen",
+      "Geen verwijzing naar liteAPI op site"
+    ],
+    "actionItems": [
+      "CUG-omgeving bouwen na call met Kjelt (week 7 april)",
+      "Beach/City pipeline bouwen met 11.997 kandidaten",
+      "Marktonderzoek rapport afwachten",
+      "Marketing uitvoeringsplan starten 27 maart"
+    ],
+    "participants": [
+      "Marlon",
+      "Chris"
+    ]
   }
 ]
