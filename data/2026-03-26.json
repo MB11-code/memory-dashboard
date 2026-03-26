@@ -12,5 +12,29 @@
     "actionItems": [],
     "participants": [],
     "time": "01:07"
+  },
+  {
+    "id": "2026-03-26-002",
+    "date": "2026-03-26",
+    "time": "09:28",
+    "title": "CinqStay Global Scan — Upgrade + Volledige Run (38K hotels)",
+    "summary": "global-scan.js drastisch verbeterd: starRating=5 server-side filter (Australie 60K naar 913 resultaten), auto-paginatie voor grote landen (China 2.827 in 15 paginas), uitbreiding van 97 naar 159 landen. Volledige scan: 38.113 vijf-sterren hotels wereldwijd, 37.934 nieuw, 19.864 Beach/City kandidaten (4.4+ rating, 50+ reviews). Pipeline besluit met Marlon: Explore = alle 5-sterren zonder rating filter maar met bevestigde opening date, Beach/City = 5 sterren + 4.4+ rating + AI categorisatie. Explore pagina = de moat.",
+    "tags": [
+      "CinqStay"
+    ],
+    "decisions": [
+      "starRating=5 als server-side filter bij liteAPI",
+      "Explore: alle 5-sterren, geen rating filter, wel opening date",
+      "Beach/City: 5 sterren + 4.4+ rating, AI categorisatie",
+      "Hotels zonder opening date + onder 4.4 eruit"
+    ],
+    "actionItems": [
+      "Beach/City pipeline bouwen (stap 2)",
+      "Explore research per hotel bouwen (stap 3)"
+    ],
+    "participants": [
+      "Marlon",
+      "Chris"
+    ]
   }
 ]
