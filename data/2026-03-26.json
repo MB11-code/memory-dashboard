@@ -161,5 +161,28 @@
       "Marlon",
       "Chris"
     ]
+  },
+  {
+    "id": "2026-03-26-008",
+    "date": "2026-03-26",
+    "time": "16:09",
+    "title": "IG Hashtag Limiet + Vrijdag Engagement Post Format",
+    "summary": "Twee late ontdekkingen/beslissingen in de marketing sessie. (1) Instagram hashtag limiet: max 5 per post is de nieuwe IG regel in 2026 (ontdekt 16:03 CET). Keywords in caption tekst worden nu belangrijker voor SEO. (2) Vrijdag = engagement/community post (besluit 16:09): polls, keuzes, vragen aan publiek. Roterend format: beach vs city, where next, rate this hotel, which room, name a destination. Dit vervangt het eerdere vrijdag-Reel plan.",
+    "tags": [
+      "CinqStay"
+    ],
+    "decisions": [
+      "Max 5 hashtags per IG post (nieuwe 2026 regel)",
+      "Vrijdag = engagement/community post ipv Reel",
+      "Keywords in caption belangrijker dan hashtags voor bereik"
+    ],
+    "actionItems": [
+      "Cron job IG content prep aanpassen aan vrijdag engagement format",
+      "Hashtag strategie updaten: max 5, focus op niche"
+    ],
+    "participants": [
+      "Marlon",
+      "Chris"
+    ]
   }
 ]
