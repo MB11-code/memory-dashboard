@@ -184,5 +184,28 @@
       "Marlon",
       "Chris"
     ]
+  },
+  {
+    "id": "2026-03-26-009",
+    "date": "2026-03-26",
+    "time": "16:24",
+    "title": "Blog Opgeschaald naar 1 Artikel per Dag (7/week)",
+    "summary": "Besluit om blog van 3 artikelen/week op te schalen naar 1 per dag (7/week). Reden: 3/week te langzaam voor een nieuwe site. Doel: 30 artikelen in maand 1, 90 in maand 3. Topical authority opbouwen over luxe hotels en bestemmingen. Dit wordt de primaire SEO-motor van CinqStay. Cron job daily blog article aangepast van ma/wo/vr naar dagelijks.",
+    "tags": [
+      "CinqStay"
+    ],
+    "decisions": [
+      "Blog van 3/week naar 1/dag (7/week)",
+      "30 artikelen maand 1, 90 maand 3 als target",
+      "Topical authority als SEO-strategie"
+    ],
+    "actionItems": [
+      "Daily blog cron job aanpassen naar 7 dagen/week",
+      "Content kalender uitbreiden met dagelijkse onderwerpen"
+    ],
+    "participants": [
+      "Marlon",
+      "Chris"
+    ]
   }
 ]
