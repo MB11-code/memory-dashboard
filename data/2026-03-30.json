@@ -46,5 +46,34 @@
       "Marlon",
       "Chris"
     ]
+  },
+  {
+    "id": "2026-03-30-003",
+    "date": "2026-03-30",
+    "time": "11:10",
+    "title": "ORAVIVUM Google Ads Optimalisatie — Grote Sessie",
+    "summary": "Complete Google Ads review na 13 dagen. Bruxisme: 41 klikken, €91, CTR 5.10%, CPC €2.13 — maar ~50% irrelevant verkeer door breed zoeken. 55+ negatieve keywords toegevoegd. Gummy Smile GESTOPT (Lotte wil het niet aanbieden) — volledig van website verwijderd. Slaapapneu: 0 vertoningen (laag zoekvolume), 7 nieuwe keywords. GA4 was KAPOT (React hydration issue) — gefixt via Next.js Script tag. Prijzen op site: bruxisme €349, MRA €999. Volledige Engelse versie gebouwd (NL/EN toggle). Blog: MRA artikel. Cron fixes: 3 crons naar juiste topics.",
+    "tags": [
+      "ORAVIVUM",
+      "Google Ads"
+    ],
+    "decisions": [
+      "Gummy Smile GESTOPT per Lotte",
+      "Bruxisme €349 incl consult + controle",
+      "Slaapapneu MRA €999 all-in",
+      "Cookie consent: altijd granted (geen GA4 blokkering)",
+      "Splint/knarsbitje NIET uitsluiten als keyword"
+    ],
+    "actionItems": [
+      "generate_lead conversie-label ophalen",
+      "Bruxisme keywords breed → woordgroep overwegen",
+      "Budget herverdelen (Gummy Smile €5.50 ongebruikt)",
+      "Balie-mailing uitvoeren",
+      "BIG-nummer voor Zorgkaart"
+    ],
+    "participants": [
+      "Marlon",
+      "Chris"
+    ]
   }
 ]
