@@ -20,5 +20,31 @@
     "participants": [
       "Chris"
     ]
+  },
+  {
+    "id": "2026-03-30-002",
+    "date": "2026-03-30",
+    "time": "10:00",
+    "title": "Ghost Producer Rondje — 3 Besteld + Betaald",
+    "summary": "Drie nieuwe ghost producers besteld en betaald op Fiverr: Dewa Maulana (€55, 5 dagen), Aldebaran (€87, 7 dagen), Nova (€87, 10 dagen). Hoodsmusic: revisie-vraag open ($150). Totaal betaald tot nu toe: ~$595. Aldebaran en Nova waarschijnlijk zelfde team (identieke templates, Indonesisch). Briefing-template gestandaardiseerd: minor keys, 5 MKJ refs + 5 externe refs, 2026-sound instructie.",
+    "tags": [
+      "MKJ",
+      "Ghost Producers"
+    ],
+    "decisions": [
+      "Minor keys standaard voor alle tracks",
+      "Voltanthem + Rivers als primaire refs (niet Ravestate)",
+      "Briefing-template gestandaardiseerd"
+    ],
+    "actionItems": [
+      "Dewa demo verwacht ~4 april",
+      "Aldebaran demo verwacht ~6 april",
+      "Nova demo verwacht ~9 april",
+      "Hoodsmusic: wacht op antwoord revisie-vraag"
+    ],
+    "participants": [
+      "Marlon",
+      "Chris"
+    ]
   }
 ]
