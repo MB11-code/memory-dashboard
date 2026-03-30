@@ -1,0 +1,24 @@
+[
+  {
+    "id": "2026-03-30-001",
+    "date": "2026-03-30",
+    "time": "02:00",
+    "title": "EPK Pagina Gebouwd op MKJ Website (Autonoom)",
+    "summary": "Nachtelijke autonome taak: professionele EPK pagina gebouwd op marlonkjones.com/epk. 8 secties: hero, bio, key facts, muziek (Spotify embed + 3 releases), tech rider, press photos, contact/booking. Server component (164B JS), OG metadata, mobile responsive. Direct bruikbaar voor booking outreach. Commit e598fd5, auto-deployed op Vercel.",
+    "tags": [
+      "MKJ",
+      "Website"
+    ],
+    "decisions": [
+      "EPK als webpagina ipv alleen markdown",
+      "Tech rider: CDJ-3000, DJM-900NXS2"
+    ],
+    "actionItems": [
+      "EPK URL delen met bookers bij outreach",
+      "Marlon: press photos updaten als er nieuwe zijn"
+    ],
+    "participants": [
+      "Chris"
+    ]
+  }
+]
